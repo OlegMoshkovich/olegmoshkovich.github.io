@@ -39,21 +39,6 @@ function Share() {
         backgroundColor: theme.palette.background.paper,
       }}
     >
-      <Box
-        sx={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          zIndex: showBldrs ? -1 : 2, // Lower zIndex when showBldrs is true
-        }}
-      >
-        <CircularProgress thickness={100}/>
-      </Box>
       {showBldrs &&
         <iframe style={{width:isMobile?'90%':'60%', height:'80%', borderRadius:'20px', marginTop:'30px'}}
         title='model'
