@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import { useTheme } from '@mui/material/styles';
 import LeftSide from './LeftSide'
-// import RightSide from './RightSide'
+import RightSide from './RightSide'
 
 
 export default function PrimaryAppBar({ darkTheme, changeTheme, onGoToLocation }) {
@@ -19,7 +19,7 @@ export default function PrimaryAppBar({ darkTheme, changeTheme, onGoToLocation }
     <Toolbar>
       <LeftSide onGoToLocation={onGoToLocation}/>
       <Box sx={{ flexGrow: 1 }} />
-      {/* <RightSide onGoToLocation={onGoToLocation}/> */}
+      <RightSide onGoToLocation={onGoToLocation}/>
       </Toolbar>
     </AppBar>
   );
