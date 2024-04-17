@@ -1,16 +1,17 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
-import AppBar from'./AppBar/AppBar'
+import Onboarding from './Onboarding'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() {
+
+function App({changeTheme, darkTheme}) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <AppBar/>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path="/on-boarding" element={<Onboarding/>} />
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
