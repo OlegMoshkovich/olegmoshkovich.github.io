@@ -19,10 +19,10 @@ return(
     sx={{ overflow: 'scroll', width: '200px' }}
   >
         <Typography variant='caption' sx={{padding: '0 0 1em 0', textAlign: 'center'}}>
-          Bldrs is bringing modern IT proctices to AEC
+          Bldrs is integrating GitHub into AEC workflows
         </Typography>
         <Chip
-          label={`Sample Project`}
+          label={`Share`}
           variant='outlined'
           onClick={async () => {
             onClose()
@@ -31,7 +31,7 @@ return(
           color='primary'
         />
         <Chip
-          label={'Sample Portfolio'}
+          label={'Portfolio'}
           variant='outlined'
           onClick={async () => {
             onClose()
