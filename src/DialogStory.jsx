@@ -16,7 +16,7 @@ const Transition = React.forwardRef((props, ref) => <Slide direction="up" ref={r
 const InfoCard = ({ title, logo: LogoComponent, description, readMoreLink, expandedDescription }) => {
   const [expanded, setExpanded] = React.useState(false);
   return(
-    <Card sx={{ width: 300, height: expanded ? 500: 300, borderRadius: 1, display: 'flex', flexDirection: 'column', marginRight:'10px' }}>
+    <Card sx={{ width: 300, height: expanded ? 500: 360, borderRadius: 1, display: 'flex', flexDirection: 'column' }}>
       { !expanded &&
         <CardMedia sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px', marginTop:4 }}>
         <LogoComponent scale={3.5}/>
@@ -30,6 +30,11 @@ const InfoCard = ({ title, logo: LogoComponent, description, readMoreLink, expan
             {expanded? expandedDescription : description}
           </Typography>
         </CardContent>
+        <CardActions sx={{ justifyContent: 'flex-end', p: 1 }}>
+          <Button size="small" href={readMoreLink} sx={{fontSize:12}}
+          // onClick={()=>setExpanded(!expanded)}
+        > Read More </Button>
+        </CardActions>
       </Card>
   )
 };
@@ -42,25 +47,26 @@ const DialogFullPage = () => {
   const sections = [
     { title: 'Built for builders',
       logo: Builder,
-      description: 'Our goal is to simplify the access to CAD data and project versions',
+      description: `We know how difficult it is to access and share BIM assets in AEC. Our goal is to simplify workflow involving digital twins.`,
       expandedDescription:
       `Our goal is to transform how teams manage and access CAD data in 3D environments,
-      making project versions more accessible and simplifying the sharing and searching of digital twins.
-      We aim to eliminate common obstacles in team collaboration, ensuring that members can effortlessly find and utilize project data contained in digital twins.
+      making project versions more accessible and simplifying the sharing and searching of 3D data.
+      This initiative aims to eliminate common obstacles in team collaboration, ensuring that members can effortlessly find and utilize project data contained in digital twins.
+      By enhancing these processes, we aim to enable a more cohesive and efficient workflows.
       `
     },
-    { title: 'Git enabled Versions',
+    { title: 'Git versioning',
       logo: Versions,
-      description: `We tightly integrate with GitHub for version control`,
+      description: 'We integrate with Git to utilize the worlds most advance version control system, currently used by more then 100 millions developers.',
       expandedDescription:
       `We have chosen GitHub for our project versioning due to its unparalleled standing in the versioning system domain, particularly for its pivotal role in the open-source movement within IT.
-      GitHub's platform offers a robust set of tools that facilitate not just the managemeVersioningnt and tracking of changes across project versions, but also foster a collaborative environment where distributed project teams can contribute and workcollectively.
+      GitHub's platform offers a robust set of tools that facilitate not just the management and tracking of changes across project versions, but also foster a collaborative environment where distributed project teams can contribute and workcollectively.
       This adoption aligns with our commitment to leveraging mature and avaialble best-in-class technology tools.
       `
     },
     { title: 'Issue tracking',
       logo: Notes,
-      description: 'We leverage GitHub\'s issue system for connecting project related conversations directly to digital twins',
+      description: 'We leverage GitHub\'s issue system for note-taking and connecting conversations directly to digital twins.',
       expandedDescription:
       `Our approach capitalizes on GitHub's issue tracking system, transforming it into a dynamic tool for note-taking and discussion directly linked to distinct facets of the digital twin models.
       This strategy fosters a model-based collaboration environment where team members can annotate, raise queries, and provide insights right at the source of the subject matter.
@@ -70,7 +76,7 @@ const DialogFullPage = () => {
     },
     { title: 'Engine',
       logo: Engine,
-      description: 'Our engine is build from group up, offering fast geometry processing, and detailed access to complex IFC/STEP standards.',
+      description: 'Our engine is build from the ground up, it is fast and accurate. Our main focus is IFC, however since the engine is extensible we recently addded support of STEP files.',
       expandedDescription:
       `Our engine is built from scratch to make working with digtial twins fast and easy, all from the web browser.
       It's really good at understanding complex rules and formats like IFC and STEP, which are important for building and product designs.
@@ -102,20 +108,23 @@ const DialogFullPage = () => {
             </IconButton>
           </Toolbar>
         </AppBar>
-        <Stack
-        direction={isMobile ? 'column':'row'}
-        justifyContent='center'
-        alignItems='center'
-        spacing={4}
-        sx={{
-          height: isMobile ? 'auto' : '100%',
-          marginTop: isMobile ? '30px' : 0
-        }}
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: isMobile ? 'column' : 'row',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            alignItems: 'center', // Align items in the center to ensure vertical centering
+            overflow: 'auto',
+            width: '100%',
+            height: '100%',
+            '& > *': { m: 1 }, // Add some spacing around each Card
+          }}
         >
           {sections.map((section, index) => (
             <InfoCard key={index} title={section.title} logo={section.logo} description={section.description} expandedDescription={section.expandedDescription} />
           ))}
-        </Stack>
+        </Box>
       </Dialog>
     </>
   );

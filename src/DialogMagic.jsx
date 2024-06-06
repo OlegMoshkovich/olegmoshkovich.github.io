@@ -54,18 +54,15 @@ const DialogMagic = () => {
                 >
                   <Typography variant="overline" sx={{ fontWeight:'bold'}}>
                     1.Go to <Link
-                    href="https://www.bldrs.ai/share/v/gh/Swiss-Property-AG/Schneestock-Public/main/ZGRAGGEN.ifc#c:80.66,11.66,-94.06,6.32,2.93,-8.72"
+                    href="https://www.bldrs.ai/share/v/p/index.ifc#c:-133.022,131.828,161.85,-38.078,22.64,-2.314;imagine:"
                     sx={{ color:theme.palette.secondary.main}}
                     >Bldrs.ai</Link>
                   </Typography>
                   <Typography variant="overline" sx={{ fontWeight:'bold'}}>
-                    2. Click on the magic wand
+                    2. Input imagine prompt
                   </Typography>
                   <Typography variant="overline" sx={{ fontWeight:'bold'}}>
-                    3. Input the image description
-                  </Typography>
-                  <Typography variant="overline" sx={{ fontWeight:'bold'}}>
-                    4. Click create
+                    3. Click create
                   </Typography>
               </Stack>:
               <img src={`${process.env.PUBLIC_URL}/Simpsons.gif`} alt="Example" style={{width:'340px', height:'340px', borderRadius:'20px'}} />

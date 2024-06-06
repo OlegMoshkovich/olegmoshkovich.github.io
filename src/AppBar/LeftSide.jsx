@@ -30,7 +30,7 @@ const LeftSide = ({onGoToLocation}) => {
         tabList={['Recent']}
         dialogTitle={
           <Typography variant='overline'>
-            Bldrs.ai
+            BLDRS.AI
           </Typography>
         }
         dialogContent={
@@ -38,7 +38,7 @@ const LeftSide = ({onGoToLocation}) => {
         }
       />
       <Button variant={showBldrs?"contained":'outlined'} size='small' sx={{borderRadius:'30px', fontWeight:'bold'}}  color='primary' onClick={()=>toggleShowBldrs()}>
-          Bldrs.ai
+          Share
         </Button>
     </Stack>
     )
