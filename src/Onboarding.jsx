@@ -42,7 +42,7 @@ function Share() {
       {showBldrs &&
         <iframe style={{width:isMobile?'90%':'60%', height:'80%', borderRadius:'20px', marginTop:'30px'}}
         title='model'
-        src="https://deploy-preview-1095--bldrs-share.netlify.app/share/v/p/index.ifc#c:-133.022,131.828,161.85,-38.078,22.64,-2.314" width="100%"  frameborder="0">
+        src="https://deploy-preview-1195--bldrs-share.netlify.app" width="100%"  frameborder="0">
             Your browser does not support iframes.
         </iframe>
       }
@@ -56,7 +56,7 @@ function Share() {
         >
           <Stack justifyContent={'center'} alignItems={'center'} spacing={2} sx={{padding:'30px 10px', width:300}}>
             <Typography sx={{textAlign:'center', padding:'0px 30px', lineHeight:'2em', fontWeight: 'bold' }} variant='overline'>
-            Our first Product Share is a 3D viewer build on top of custom bldrs engine and Github.
+            Our first Product Share is a 3D viewer built on top of custom bldrs engine and Github.
             </Typography>
             <Typography sx={{textAlign:'center', padding:'0px 30px', lineHeight:'2em', }} variant='overline'>
             It opens IFC and STEP digital twins and includes tools for collaboration.
