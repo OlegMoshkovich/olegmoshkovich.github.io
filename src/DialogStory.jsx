@@ -16,7 +16,7 @@ const Transition = React.forwardRef((props, ref) => <Slide direction="up" ref={r
 const InfoCard = ({ title, logo: LogoComponent, description, readMoreLink, expandedDescription }) => {
   const [expanded, setExpanded] = React.useState(false);
   return(
-    <Card sx={{ width: 300, height: expanded ? 500: 340, borderRadius: 1, display: 'flex', flexDirection: 'column', marginRight:'10px' }}>
+    <Card sx={{ width: 300, height: expanded ? 500: 300, borderRadius: 1, display: 'flex', flexDirection: 'column', marginRight:'10px' }}>
       { !expanded &&
         <CardMedia sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px', marginTop:4 }}>
         <LogoComponent scale={3.5}/>
@@ -42,7 +42,7 @@ const DialogFullPage = () => {
   const sections = [
     { title: 'Built for builders',
       logo: Builder,
-      description: 'Our goal is to simplify the access to CAD data and project versions, as well as the sharing and searching of relevant BIM data.',
+      description: 'Our goal is to simplify the access to CAD data and project versions',
       expandedDescription:
       `Our goal is to transform how teams manage and access CAD data in 3D environments,
       making project versions more accessible and simplifying the sharing and searching of digital twins.
@@ -51,7 +51,7 @@ const DialogFullPage = () => {
     },
     { title: 'Git enabled Versions',
       logo: Versions,
-      description: `We use GitHub for version control because it makes managing document versions much easier, thanks to Git's capabilities, and GitHub provides the best tools for this purpose.`,
+      description: `We tightly integrate with GitHub for version control`,
       expandedDescription:
       `We have chosen GitHub for our project versioning due to its unparalleled standing in the versioning system domain, particularly for its pivotal role in the open-source movement within IT.
       GitHub's platform offers a robust set of tools that facilitate not just the managemeVersioningnt and tracking of changes across project versions, but also foster a collaborative environment where distributed project teams can contribute and workcollectively.
@@ -60,7 +60,7 @@ const DialogFullPage = () => {
     },
     { title: 'Issue tracking',
       logo: Notes,
-      description: 'We leverage GitHub\'s issue system for note-taking and connecting conversations directly to specific elements of the CAD models to enable model based collaboration.',
+      description: 'We leverage GitHub\'s issue system for connecting project related conversations directly to digital twins',
       expandedDescription:
       `Our approach capitalizes on GitHub's issue tracking system, transforming it into a dynamic tool for note-taking and discussion directly linked to distinct facets of the digital twin models.
       This strategy fosters a model-based collaboration environment where team members can annotate, raise queries, and provide insights right at the source of the subject matter.
@@ -70,7 +70,7 @@ const DialogFullPage = () => {
     },
     { title: 'Engine',
       logo: Engine,
-      description: 'Our engine is designed from group up, offering quick geometry processing, and detailed access to complex IFC/STEP standards.',
+      description: 'Our engine is build from group up, offering fast geometry processing, and detailed access to complex IFC/STEP standards.',
       expandedDescription:
       `Our engine is built from scratch to make working with digtial twins fast and easy, all from the web browser.
       It's really good at understanding complex rules and formats like IFC and STEP, which are important for building and product designs.
@@ -102,24 +102,20 @@ const DialogFullPage = () => {
             </IconButton>
           </Toolbar>
         </AppBar>
-        <Box
-          sx={{
-            display: 'flex',
-            flexDirection: isMobile ? 'column' : 'row',
-            flexWrap: 'wrap',
-            justifyContent: 'center',
-            alignItems: 'center', // Align items in the center to ensure vertical centering
-            overflow: 'auto',
-            width: '100%',
-            height: '100%',
-            '& > *': { m: 1 }, // Add some spacing around each Card
-            ...(isMobile && { '& > :last-child': { ml: '10px' } }), // Add 10px left margin to the last child if on mobile
-          }}
+        <Stack
+        direction={isMobile ? 'column':'row'}
+        justifyContent='center'
+        alignItems='center'
+        spacing={4}
+        sx={{
+          height: isMobile ? 'auto' : '100%',
+          marginTop: isMobile ? '30px' : 0
+        }}
         >
           {sections.map((section, index) => (
             <InfoCard key={index} title={section.title} logo={section.logo} description={section.description} expandedDescription={section.expandedDescription} />
           ))}
-        </Box>
+        </Stack>
       </Dialog>
     </>
   );

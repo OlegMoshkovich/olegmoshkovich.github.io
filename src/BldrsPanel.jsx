@@ -1,4 +1,5 @@
-import * as React from 'react';
+import * as React from 'react'
+import Typography from '@mui/material/Typography'
 import Chip from '@mui/material/Chip'
 import Stack from '@mui/material/Stack'
 
@@ -17,12 +18,15 @@ return(
     spacing={1}
     sx={{ overflow: 'scroll', width: '200px' }}
   >
+        <Typography variant='caption' sx={{padding: '0 0 1em 0', textAlign: 'center'}}>
+          Bldrs is bringing modern IT proctices to AEC
+        </Typography>
         <Chip
           label={`Sample Project`}
           variant='outlined'
           onClick={async () => {
             onClose()
-            window.open('https://www.bldrs.ai/share/v/gh/Swiss-Property-AG/Eisvogel-Public/main/EISVOGEL.ifc#c:-81.541,25.413,39.108,6.293,3.405,-22.21;', '_blank', 'noopener, noreferrer');
+            window.open('https://www.bldrs.ai/', '_blank', 'noopener, noreferrer');
           }}
           color='primary'
         />
