@@ -45,7 +45,7 @@ const DialogFullPage = () => {
   const sections = [
     { title: 'Built for builders',
       logo: Builder,
-      description: 'Our goal is to simplify the access to CAD data and project versions, as well as the sharing and searching of relevant BIM data.',
+      description: 'Our goal is to simplify access to digital twins and to enable version control in AEC.',
       expandedDescription:
       `Our goal is to transform how teams manage and access CAD data in 3D environments,
       making project versions more accessible and simplifying the sharing and searching of 3D data.
@@ -53,9 +53,9 @@ const DialogFullPage = () => {
       By enhancing these processes, we aim to enable a more cohesive and efficient workflows.
       `
     },
-    { title: 'Git enabled Versions',
+    { title: 'Git versioning',
       logo: Versions,
-      description: 'Our versioning workflows are based on GitHub toolchain bcause document version is a really hard problem, but Git makes it simpler, and GitHub is the top choice with the best tools for Git.',
+      description: 'We integrate with Git to use the worlds most advance version control system..',
       expandedDescription:
       `We have chosen GitHub for our project versioning due to its unparalleled standing in the versioning system domain, particularly for its pivotal role in the open-source movement within IT.
       GitHub's platform offers a robust set of tools that facilitate not just the management and tracking of changes across project versions, but also foster a collaborative environment where distributed project teams can contribute and workcollectively.
@@ -64,7 +64,7 @@ const DialogFullPage = () => {
     },
     { title: 'Issue tracking',
       logo: Notes,
-      description: 'We leverage GitHub\'s issue system for note-taking and connecting conversations directly to specific elements of the CAD models to enable model based collaboration.',
+      description: 'We leverage GitHub\'s issue system for note-taking and connecting conversations directly to digital twins',
       expandedDescription:
       `Our approach capitalizes on GitHub's issue tracking system, transforming it into a dynamic tool for note-taking and discussion directly linked to distinct facets of the digital twin models.
       This strategy fosters a model-based collaboration environment where team members can annotate, raise queries, and provide insights right at the source of the subject matter.
@@ -74,7 +74,7 @@ const DialogFullPage = () => {
     },
     { title: 'Engine',
       logo: Engine,
-      description: 'Our engine is designed from group up, offering quick geometry processing, and detailed access to complex IFC/STEP standards all in the browser.',
+      description: 'Our engine is build from the ground up, offering quick geometry processing, and detailed access to complex IFC/STEP standards all in the browser.',
       expandedDescription:
       `Our engine is built from scratch to make working with digtial twins fast and easy, all from the web browser.
       It's really good at understanding complex rules and formats like IFC and STEP, which are important for building and product designs.
