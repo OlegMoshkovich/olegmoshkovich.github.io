@@ -59,7 +59,7 @@ function Share() {
             Our first Product Share is a 3D viewer built on top of custom bldrs engine and Github.
             </Typography>
             <Typography sx={{textAlign:'center', padding:'0px 30px', lineHeight:'2em', }} variant='overline'>
-            It opens IFC and STEP digital twins and includes tools for collaboration.
+            Share opens IFC and STEP files and includes tools for versioning and collaboration.
             </Typography>
             <Typography sx={{textAlign:'center', padding:'0px 30px',lineHeight:'2em'}} variant='overline'>
               Share can be integrated into other websites using an iframe.
