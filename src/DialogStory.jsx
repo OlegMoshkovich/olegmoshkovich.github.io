@@ -47,7 +47,7 @@ const DialogFullPage = () => {
   const sections = [
     { title: 'Built for builders',
       logo: Builder,
-      description: `We know how difficult it is to access and share BIM assets in AEC. Our goal is to simplify workflow involving digital twins.`,
+      description: `We know how difficult it is to access and share BIM assets in AEC. Our goal is to simplify collaborative workflows involving digital twins.`,
       expandedDescription:
       `Our goal is to transform how teams manage and access CAD data in 3D environments,
       making project versions more accessible and simplifying the sharing and searching of 3D data.
@@ -57,7 +57,7 @@ const DialogFullPage = () => {
     },
     { title: 'Git versioning',
       logo: Versions,
-      description: 'We integrate with Git to utilize the worlds most advance version control system, currently used by more then 100 millions developers.',
+      description: 'We integrate with Git to utilize the worlds most advance version control system currently used by more then 100 millions developers.',
       expandedDescription:
       `We have chosen GitHub for our project versioning due to its unparalleled standing in the versioning system domain, particularly for its pivotal role in the open-source movement within IT.
       GitHub's platform offers a robust set of tools that facilitate not just the management and tracking of changes across project versions, but also foster a collaborative environment where distributed project teams can contribute and workcollectively.
@@ -66,7 +66,7 @@ const DialogFullPage = () => {
     },
     { title: 'Issue tracking',
       logo: Notes,
-      description: 'We leverage GitHub\'s issue system for note-taking and connecting conversations directly to digital twins.',
+      description: 'We leverage GitHub\'s issues for note-taking and connecting conversations to digital twins.',
       expandedDescription:
       `Our approach capitalizes on GitHub's issue tracking system, transforming it into a dynamic tool for note-taking and discussion directly linked to distinct facets of the digital twin models.
       This strategy fosters a model-based collaboration environment where team members can annotate, raise queries, and provide insights right at the source of the subject matter.
