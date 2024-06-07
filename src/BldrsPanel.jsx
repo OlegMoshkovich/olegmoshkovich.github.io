@@ -18,7 +18,7 @@ return(
     spacing={1}
     sx={{ overflow: 'scroll', width: '200px' }}
   >
-        <Typography variant='caption' sx={{padding: '0 0 1em 0', textAlign: 'center'}}>
+        <Typography variant='caption' sx={{padding: '0 0 1em .5em'}}>
           Bldrs is integrating GitHub into AEC workflows
         </Typography>
         <Chip
