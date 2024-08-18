@@ -38,7 +38,7 @@ function Description() {
              It is Awesome.
             </Typography>
             <Typography variant='body2' sx={{fontWeight:'bold'}}>
-            Let's collaborate
+            Let's collaborate!
             </Typography>
           </Stack>
         </Paper>

@@ -18,7 +18,7 @@ const LeftSide = ({onGoToLocation}) => {
     spacing={1}
     sx={{marginLeft:'-10px'}}
     >
-       <Typography variant='p' sx={{fontWeight: 'bold'}} color='primary'>
+       <Typography variant='p' sx={{fontWeight: 'bold', paddingLeft:isMobile ? '14px': '0px' }} color='primary'>
         Oleg Moshkovich
       </Typography>
     </Stack>
