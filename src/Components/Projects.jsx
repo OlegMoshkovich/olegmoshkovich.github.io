@@ -116,7 +116,7 @@ const Projects = () => {
         {view === 'timeline' && (
           <Box
           sx={{
-            paddingTop: '86px',
+            paddingTop: isMobile ? '40px' : '86px',
             width: '100%',
             paddingBottom: '16px',
           }}>
@@ -163,7 +163,7 @@ const Projects = () => {
           <Grid
             container
             sx={{
-              paddingTop: '100px',
+              paddingTop: isMobile ? '40px' : '86px',
               display: 'flex',
               justifyContent: 'center',
             }}
