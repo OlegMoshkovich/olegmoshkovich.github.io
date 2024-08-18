@@ -20,7 +20,7 @@ function Description() {
           padding: '0px 10px'
         }}
         >
-          <Stack justifyContent={'center'}  spacing={1} sx={{padding:'30px 10px', width:isMobile ? 320 : 600}}>
+          <Stack justifyContent={'center'}  spacing={1} sx={{padding:'30px 10px', width:isMobile ? 320 : 500}}>
             <Typography  variant='body2' sx={{fontWeight:'bold'}}>
             Hello.
             </Typography>
@@ -29,7 +29,7 @@ function Description() {
             </Typography>
             <Typography  variant='body2'>
             I have a deep appreciation for the built environment and strive to make a difference in the world through my work.
-            Over the years, I have worked in construction, mechanical and structural engineering, and design offices. In the last six years, I have been involved in various startups.
+            Over the years, I have worked in construction, engineering and design offices. In the last six years, I have been involved in various startups.
             </Typography>
             <Typography variant='body2'>
              Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into the AEC workflows.
