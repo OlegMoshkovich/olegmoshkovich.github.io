@@ -21,8 +21,12 @@ import useStore from '../Store';
 import GridViewIcon from '@mui/icons-material/GridView';
 import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Tooltip from '@mui/material/Tooltip';
 import Corousel from './Corousel';
+import SouthIcon from '@mui/icons-material/South';
+import EastIcon from '@mui/icons-material/East';
 
 const Transition = React.forwardRef((props, ref) => (
   <Slide direction="up" ref={ref} {...props} />
@@ -74,7 +78,7 @@ const Projects = () => {
             <Tooltip title="Only Descriptions">
               <Switch onChange={() => toggleExpandAll()} size="small" />
             </Tooltip>
-              {
+              {/* {
                 !isMobile &&
                 <IconButton
                 sx={{
@@ -87,7 +91,7 @@ const Projects = () => {
               >
                 <CropPortraitIcon fontSize="small" />
               </IconButton>
-              }
+              } */}
 
             <IconButton
               sx={{
@@ -98,7 +102,7 @@ const Projects = () => {
               size="small"
               onClick={() => handleViewChange('grid')}
             >
-              <GridViewIcon fontSize="small" />
+              {isMobile ? <KeyboardArrowDownIcon fontSize="small" /> : <GridViewIcon fontSize="small" />}
             </IconButton>
             <IconButton
               sx={{
@@ -109,7 +113,7 @@ const Projects = () => {
               size="small"
               onClick={() => handleViewChange('timeline')}
             >
-              <FastForwardOutlinedIcon fontSize="small" />
+              {isMobile ? <KeyboardArrowRightIcon fontSize="small" /> : <FastForwardOutlinedIcon fontSize="small" />}
             </IconButton>
             <IconButton sx={{margin: '0 4px'}} size="small" onClick={() => setOpen(false)}>
               <CloseIcon fontSize="small" />
