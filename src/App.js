@@ -7,7 +7,7 @@ function App({changeTheme, darkTheme}) {
   return (
     <Router>
       <Routes>
-        <Route path="/on-boarding" element={<Intro/>} />
+        <Route path="/resume" element={<Intro/>} />
       </Routes>
     </Router>
   )
