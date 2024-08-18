@@ -35,7 +35,7 @@ function Description() {
              Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into the AEC workflows. As startups go, it's a challenging journey, and sometimes difficult decisions need to be made. I decided to step away to extend the runway and give the organization a better chance to survive.
             </Typography>
             <Typography variant='body2' sx={{fontWeight:'bold'}}>
-            I am currently seeking a suitable position, and Speckle seems to be the great fit for the skills I have developed over the last 15 years. <br/>I hope to contribute to your mission, as it deeply resonates with my view of the world.
+            I am currently seeking a suitable position, where I can apply the skills I have developed over the last 15 years. <br/>I love delivering value and therefore only looking for organizations where I can contribute to the mission which deeply resonates with my view of the world.
             </Typography>
           </Stack>
         </Paper>
