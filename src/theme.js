@@ -5,7 +5,7 @@ import {colors} from './colors'
 export const themeComponent = {
   spacing: 8,
   shape: {
-    borderRadius: 20,
+    borderRadius: 10,
   },
   components: {
     MuiPaper: {
@@ -24,16 +24,13 @@ export const themeComponent = {
     MuiIconButton: {
       styleOverrides: {
         root:({ theme }) => ({
-          backgroundColor: theme.palette.background.default, // use palette color here
+          // backgroundColor: theme.palette.background.default, // use palette color here
           color:  theme.palette.primary.main, // Icon color
-          border: `1px solid ${theme.palette.background.paper}`,
+          // border: `1px solid ${theme.palette.background.paper}`,
           '&:hover': {
             backgroundColor: theme.palette.secondary.main, // Background color on hover
           },
         }),
-        selected:({ theme }) => ({
-          backgroundColor: theme.palette.secondary.main, // use palette color here
-        })
       },
     },
     MuiFormControl: {
@@ -213,11 +210,13 @@ export const themeComponent = {
           },
         }),
         outlined: ({ theme }) => ({
-          borderColor: theme.palette.primary.main,
-          '&&:hover': { // Increased specificity
-            backgroundColor: theme.palette.primary.main,
-            color: theme.palette.common.white,
-          },
+          fontSize: theme.typography.caption.fontSize,
+          color: theme.palette.primary.main,
+          // borderColor: theme.palette.primary.main,
+          // '&&:hover': { // Increased specificity
+          //   backgroundColor: theme.palette.primary.main,
+          //   color: theme.palette.common.white,
+          // },
         }),
         root: {
           fontSize: '1rem',

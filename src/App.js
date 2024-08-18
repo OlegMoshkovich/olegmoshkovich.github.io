@@ -1,6 +1,5 @@
 import React from 'react'
-import './App.css';
-import Onboarding from './Onboarding'
+import Intro from './Intro'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -8,7 +7,7 @@ function App({changeTheme, darkTheme}) {
   return (
     <Router>
       <Routes>
-        <Route path="/on-boarding" element={<Onboarding/>} />
+        <Route path="/on-boarding" element={<Intro/>} />
       </Routes>
     </Router>
   )
