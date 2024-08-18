@@ -21,6 +21,7 @@ import useStore from '../Store';
 import GridViewIcon from '@mui/icons-material/GridView';
 import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
+import Tooltip from '@mui/material/Tooltip';
 import Corousel from './Corousel';
 
 const Transition = React.forwardRef((props, ref) => (
@@ -70,7 +71,9 @@ const Projects = () => {
               </Typography>
             </Stack>
             <Box sx={{ flexGrow: 1 }} />
-            <Switch onChange={() => toggleExpandAll()} size="small" />
+            <Tooltip title="Only Descriptions">
+              <Switch onChange={() => toggleExpandAll()} size="small" />
+            </Tooltip>
               {
                 !isMobile &&
                 <IconButton

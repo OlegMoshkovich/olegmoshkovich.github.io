@@ -6,6 +6,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import Typography from '@mui/material/Typography';
+import Tooltip from '@mui/material/Tooltip';
 import IconButton from '@mui/material/IconButton';
 import { useTheme } from '@mui/material/styles';
 
@@ -29,9 +30,11 @@ export default function Dialog({
 
   return (
     <div>
-      <IconButton size='small' onClick={handleClickOpen} sx={{border:'none'}}>
-        {icon}
-      </IconButton>
+      <Tooltip title="Resume">
+        <IconButton size='small' onClick={handleClickOpen} sx={{border:'none'}}>
+          {icon}
+        </IconButton>
+      </Tooltip>
       <MuiDialog
         open={open}
         onClose={handleClose}
