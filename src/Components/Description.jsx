@@ -20,7 +20,7 @@ function Description() {
           padding: '0px 10px'
         }}
         >
-          <Stack justifyContent={'center'}  spacing={1} sx={{padding:'30px 10px', width:isMobile ? 360 : 600}}>
+          <Stack justifyContent={'center'}  spacing={1} sx={{padding:'30px 10px', width:isMobile ? 320 : 600}}>
             <Typography  variant='body2' sx={{fontWeight:'bold'}}>
             Hello.
             </Typography>

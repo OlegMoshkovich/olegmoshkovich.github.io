@@ -11,6 +11,7 @@ import {
   Typography,
   useTheme,
   Grid,
+  useMediaQuery
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import { ProjectsObj } from '../data/Project';
@@ -32,6 +33,7 @@ const Projects = () => {
 
   const theme = useTheme();
   const { toggleExpandAll } = useStore();
+  const isMobile = useMediaQuery('(max-width:600px)');
 
   const handleViewChange = (newView) => {
     setView(newView);
@@ -69,17 +71,21 @@ const Projects = () => {
             </Stack>
             <Box sx={{ flexGrow: 1 }} />
             <Switch onChange={() => toggleExpandAll()} size="small" />
-            <IconButton
-              sx={{
-                margin: '0 4px',
-                borderRadius: '50%',
-                boxShadow: view === 'corousel' ? theme.shadows[1] : 'none', // Apply shadow when selected
-              }}
-              size="small"
-              onClick={() => handleViewChange('corousel')}
-            >
-              <CropPortraitIcon fontSize="small" />
-            </IconButton>
+              {
+                !isMobile &&
+                <IconButton
+                sx={{
+                  margin: '0 4px',
+                  borderRadius: '50%',
+                  boxShadow: view === 'corousel' ? theme.shadows[1] : 'none', // Apply shadow when selected
+                }}
+                size="small"
+                onClick={() => handleViewChange('corousel')}
+              >
+                <CropPortraitIcon fontSize="small" />
+              </IconButton>
+              }
+
             <IconButton
               sx={{
                 margin: '0 4px',
@@ -114,13 +120,16 @@ const Projects = () => {
             width: '100%',
             paddingBottom: '16px',
           }}>
-            <Typography
-              variant='caption'
-              sx={{
-                marginLeft: '30px',
-              }}
-            >Timeline into the past
-            </Typography>
+            {!isMobile &&
+              <Typography
+                variant='caption'
+                sx={{
+                  marginLeft: '30px',
+                }}
+              >
+                Timeline into the past
+              </Typography>
+            }
             <Stack
               spacing={2}
               direction="row"
@@ -153,7 +162,6 @@ const Projects = () => {
         {view === 'grid' && (
           <Grid
             container
-            spacing={2}
             sx={{
               paddingTop: '100px',
               display: 'flex',
