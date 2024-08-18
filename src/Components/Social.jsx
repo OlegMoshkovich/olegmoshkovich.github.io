@@ -1,10 +1,10 @@
 import * as React from 'react';
-import LogoGit from '../Logos/LogoGit'
 import Stack from '@mui/material/Stack'
 import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import Dialog from './Dialog'
 
@@ -14,7 +14,7 @@ const Social = () => {
     <Stack
     direction="row"
     alignItems="center"
-    spacing={1}
+    spacing={0}
     sx={{marginRight:'-5px'}}
     >
       <Dialog
@@ -39,7 +39,7 @@ const Social = () => {
       <IconButton size='small'
           onClick={()=>window.open('https://github.com/OlegMoshkovich')}
           sx={{border:'none'}}>
-        <LogoGit fontSize='small'/>
+        <GitHubIcon fontSize='small'/>
       </IconButton>
     </Stack>
   )

@@ -32,10 +32,13 @@ function Description() {
             Over the years, I have worked in construction, mechanical and structural engineering, and design offices. In the last six years, I have been involved in various startups.
             </Typography>
             <Typography variant='body2'>
-             Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into the AEC workflows. As startups go, it's a challenging journey, and sometimes difficult decisions need to be made. I decided to step away to extend the runway and give the organization a better chance to survive.
+             Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into the AEC workflows.
+             We are developing the fastest and the most accurate engine to process IFC files. Our webapp Share provides tight integration with Github, for versioning and issue tracking.
+             <br/>
+             It is Awesome.
             </Typography>
             <Typography variant='body2' sx={{fontWeight:'bold'}}>
-            I am currently seeking a suitable position, where I can apply the skills I have developed over the last 15 years. <br/>I love delivering value and therefore only looking for organizations where I can contribute to the mission which deeply resonates with my view of the world.
+            Let's collaborate
             </Typography>
           </Stack>
         </Paper>

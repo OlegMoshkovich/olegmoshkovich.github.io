@@ -123,16 +123,6 @@ const Projects = () => {
             width: '100%',
             paddingBottom: '16px',
           }}>
-            {!isMobile &&
-              <Typography
-                variant='caption'
-                sx={{
-                  marginLeft: '30px',
-                }}
-              >
-                Timeline into the past
-              </Typography>
-            }
             <Stack
               spacing={2}
               direction="row"
@@ -143,7 +133,7 @@ const Projects = () => {
                 paddingBottom: '16px',
               }}
             >
-              <Box />
+              <Box/>
               {ProjectsObj.map((project, index) => {
                 console.log('Project:', project); // Print the project object to the console
                 return (
