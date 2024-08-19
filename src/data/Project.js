@@ -10,7 +10,7 @@ export const ProjectsObj = [
     title: 'Outer Labs for Google',
     tag: 'Engineer',
     image: `${process.env.PUBLIC_URL}/images/2.png`,
-    description: 'Developed and maintained front end portion of the web applications Panorama, Blueprint, and Portfolio.',
+    description: 'Participated in the development and maintenance of the front-end portions of the web applications Panorama, Blueprint, and Portfolio.',
     expandedDescription: `...`,
   },
   {

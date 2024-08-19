@@ -16,17 +16,12 @@ import {
 import CloseIcon from '@mui/icons-material/Close';
 import { ProjectsObj } from '../data/Project';
 import InfoCard from './InfoCard';
-import Switch from '@mui/material/Switch';
 import useStore from '../Store';
 import GridViewIcon from '@mui/icons-material/GridView';
 import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
-import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import Tooltip from '@mui/material/Tooltip';
 import Corousel from './Corousel';
-import SouthIcon from '@mui/icons-material/South';
-import EastIcon from '@mui/icons-material/East';
 
 const Transition = React.forwardRef((props, ref) => (
   <Slide direction="up" ref={ref} {...props} />
@@ -37,7 +32,7 @@ const Projects = () => {
   const [view, setView] = useState('grid'); // New state to manage views
 
   const theme = useTheme();
-  const { toggleExpandAll } = useStore();
+  // const { toggleExpandAll } = useStore();
   const isMobile = useMediaQuery('(max-width:600px)');
 
   const handleViewChange = (newView) => {
