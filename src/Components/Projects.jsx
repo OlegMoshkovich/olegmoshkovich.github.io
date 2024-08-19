@@ -75,9 +75,9 @@ const Projects = () => {
               </Typography>
             </Stack>
             <Box sx={{ flexGrow: 1 }} />
-            <Tooltip title="Only Descriptions">
+            {/* <Tooltip title="Only Descriptions">
               <Switch onChange={() => toggleExpandAll()} size="small" />
-            </Tooltip>
+            </Tooltip> */}
               {/* {
                 !isMobile &&
                 <IconButton
