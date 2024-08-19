@@ -33,9 +33,7 @@ function Description() {
             </Typography>
             <Typography variant='body2'>
              Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into the AEC workflows.
-             We are developing the fastest and the most accurate engine to process IFC files. Our webapp Share provides tight integration with Github, for versioning and issue tracking.
-             <br/>
-             It is Awesome.
+             We are developing the fastest and the most accurate engine to process IFC files. Our web application Share provides tight integration with Github, for versioning and issue tracking.
             </Typography>
             <Typography variant='body2' sx={{fontWeight:'bold'}}>
             Let's collaborate!
