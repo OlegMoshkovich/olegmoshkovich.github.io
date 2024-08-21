@@ -34,7 +34,7 @@ const Social = () => {
             <ImageList rowHeight={400} cols={1}>
                   <ImageListItem key={'image'} >
                     <img
-                      src={`${process.env.PUBLIC_URL}/images/resume.png`}
+                      src={`${process.env.PUBLIC_URL}/images/10.png`}
                       alt={'resume'}
                       loading="lazy"
                     />
