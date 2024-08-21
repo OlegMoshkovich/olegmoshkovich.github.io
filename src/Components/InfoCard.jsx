@@ -69,15 +69,8 @@ const InfoCard = ({ title, description, expandedDescription, image, tag }) => {
             }
             dialogContent={
             <Stack>
-              <ImageList rowHeight={300}>
-                  <ImageListItem key={'image'}>
-                    <img
-                      src={image}
-                      alt={'image_hero'}
-                      loading="lazy"
-                    />
-                  </ImageListItem>
-                  <ImageListItem key={'image'}>
+              <ImageList rowHeight={300} cols={2}>
+                  <ImageListItem key={'image'} >
                     <img
                       src={image}
                       alt={'image_hero'}

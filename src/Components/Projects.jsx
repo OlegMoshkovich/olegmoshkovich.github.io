@@ -9,10 +9,13 @@ import {
   Stack,
   Toolbar,
   Typography,
+  // Tooltip,
   useTheme,
   Grid,
+  // Switch,
   useMediaQuery
 } from '@mui/material';
+import useStore from '../Store';
 import CloseIcon from '@mui/icons-material/Close';
 import { ProjectsObj } from '../data/Project';
 import InfoCard from './InfoCard';
@@ -20,7 +23,9 @@ import GridViewIcon from '@mui/icons-material/GridView';
 import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 import Corousel from './Corousel';
+
 
 const Transition = React.forwardRef((props, ref) => (
   <Slide direction="up" ref={ref} {...props} />
@@ -31,7 +36,7 @@ const Projects = () => {
   const [view, setView] = useState('grid'); // New state to manage views
 
   const theme = useTheme();
-  // const { toggleExpandAll } = useStore();
+  const { toggleExpandAll } = useStore();
   const isMobile = useMediaQuery('(max-width:600px)');
 
   const handleViewChange = (newView) => {
@@ -71,8 +76,8 @@ const Projects = () => {
             <Box sx={{ flexGrow: 1 }} />
             {/* <Tooltip title="Only Descriptions">
               <Switch onChange={() => toggleExpandAll()} size="small" />
-            </Tooltip> */}
-              {/* {
+            </Tooltip>
+              {
                 !isMobile &&
                 <IconButton
                 sx={{
@@ -86,7 +91,6 @@ const Projects = () => {
                 <CropPortraitIcon fontSize="small" />
               </IconButton>
               } */}
-
             <IconButton
               sx={{
                 margin: '0 4px',
