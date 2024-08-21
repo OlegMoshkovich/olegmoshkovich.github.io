@@ -24,8 +24,14 @@ We’re a team of 4 or 5 people with large ambitions and a very complicated arch
     title: 'Outer Labs for Google',
     tag: 'Engineer',
     image: `${process.env.PUBLIC_URL}/images/2.png`,
-    description: 'Participated in the development and maintenance of the front-end portions of the web applications Panorama, Blueprint, and Portfolio.',
-    expandedDescription: `...`,
+    description: 'Participated in the development and maintenance of the web applications Panorama, Blueprint, and Portfolio. Worked on the library of Outer Labs react components.',
+    expandedDescription: `
+    I joined Outer Labs in 2022, right at the beginning of COVID. The company was working on a suite of apps for Google to assist the internal design, construction, and management teams in overseeing Google's global real estate portfolio. I started working on a project called Panorama, which was an application focusing on the environmental performance of spaces by analyzing panels comprising building facades against environmental and structural performance criteria. In this application, the designer was equipped with a tool that could be used to configure the panel shading system, select a specific type of glass, and receive a score that would determine the feasibility of this specific configuration from an ESG (Environmental, Social, and Governance) standpoint. We used React for the front end, with the React Three Fiber package to visualize the panel. The system's backend was developed using Go, with GraphQL as the layer between the back end and the front end. The information driving the decisions came from detailed design sheets provided by structural and environmental facade consultants. In addition to focusing on the UI components, I worked with consultants to distill all of the formulas used in the calculations.
+
+I was a flexible resource within the organization and was able to adapt to different projects. The next project I worked on was Blueprint, which was a catalog of building parts organized by type, where all of the design systems were represented. Designers could access information about all of the standard parts used in construction and download BIM (Building Information Modeling) components to use in their designs. I joined a long-term contributor to the project to assist with the UI redesign of the system.
+
+The next project I worked on was Portfolio, an application used by interior designers to study different office layout schemes as Google was preparing to reconfigure its offices to fit the hybrid work schedule of its workforce. Users could upload existing floor plans and quickly assemble a scheme using a library of predefined pods. They could also configure the pods in the configurator to quickly assess the feasibility of the proposed design. The scheme would be evaluated against several criteria, with the final score determining the quality of the proposed design.
+    `,
   },
   {
     title: 'Human Condition Safety',
