@@ -35,7 +35,7 @@ const Social = () => {
                   <ImageListItem key={'image'} >
                     <img
                       src={`${process.env.PUBLIC_URL}/images/resume.png`}
-                      alt={'image_hero'}
+                      alt={'resume'}
                       loading="lazy"
                     />
                   </ImageListItem>
