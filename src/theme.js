@@ -239,6 +239,13 @@ export const themeComponent = {
         }),
       },
     },
+    MuiBackdrop: {
+      styleOverrides: {
+        root: {
+          backgroundColor: 'rgba(0, 0, 0, .9)', // Adjust the opacity to control the dimness
+        },
+      },
+    },
   },
 }
 
