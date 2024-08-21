@@ -58,8 +58,8 @@ const InfoCard = ({ title, description, expandedDescription, image, tag }) => {
       <CardActions sx={{ justifyContent: 'space-between', p: 1 }}>
         <Chip size='small' label={tag} variant="outlined"/>
         <Stack direction='row'>
-          {expanded &&
             <Dialog
+            buttonTitle='Read more'
             actionTitle={'OK'}
             icon={<AspectRatioIcon fontSize='small' color='default'/>}
             dialogTitle={
@@ -91,16 +91,6 @@ const InfoCard = ({ title, description, expandedDescription, image, tag }) => {
             </Stack>
             }
           />
-          }
-          {!expandAll &&
-            <Button
-              size="small"
-              sx={{ fontSize: 12 }}
-              onClick={()=>setExpanded(!expanded)}
-            >
-              {expanded ? 'Back' : 'Read more'}
-            </Button>
-          }
         </Stack>
       </CardActions>
     </Card>

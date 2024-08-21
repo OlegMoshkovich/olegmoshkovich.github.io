@@ -19,6 +19,7 @@ const Social = () => {
     >
       <Dialog
         actionTitle={'OK'}
+        tooltipTitle={'Resume'}
         icon={<DescriptionOutlinedIcon fontSize='small'/>}
         dialogTitle={
           <Typography variant='body2'>

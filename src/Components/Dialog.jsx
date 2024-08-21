@@ -15,6 +15,8 @@ export default function Dialog({
   dialogTitle='dialog',
   dialogContent='sample content',
   actionTitle='ok',
+  tooltipTitle,
+  buttonTitle='',
 }) {
   const [open, setOpen] = useState(false);
   const theme = useTheme()
@@ -30,11 +32,21 @@ export default function Dialog({
 
   return (
     <div>
-      <Tooltip title="Resume">
-        <IconButton size='small' onClick={handleClickOpen} sx={{border:'none'}}>
-          {icon}
-        </IconButton>
-      </Tooltip>
+      {buttonTitle.length>0 ?
+        <Button
+          size="small"
+          sx={{ fontSize: 12 }}
+          onClick={handleClickOpen}
+        >
+          {buttonTitle}
+        </Button> :
+        <Tooltip title={tooltipTitle}>
+          <IconButton size='small' onClick={handleClickOpen} sx={{border:'none'}}>
+            {icon}
+          </IconButton>
+        </Tooltip>
+      }
+
       <MuiDialog
         open={open}
         onClose={handleClose}
