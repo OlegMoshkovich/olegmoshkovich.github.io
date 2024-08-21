@@ -16,7 +16,6 @@ import {
 import CloseIcon from '@mui/icons-material/Close';
 import { ProjectsObj } from '../data/Project';
 import InfoCard from './InfoCard';
-import useStore from '../Store';
 import GridViewIcon from '@mui/icons-material/GridView';
 import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';

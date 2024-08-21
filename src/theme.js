@@ -246,7 +246,7 @@ export const lightTheme = (colorTheme=1) => createTheme({
   palette: {
     mode: 'light',
     default: {
-      main: 'white',
+      main: 'grey',
     },
     primary: {
       main: colors[colorTheme].primary,
@@ -269,7 +269,7 @@ export const darkTheme = (colorTheme=1) => createTheme({
   palette: {
     mode: 'dark',
     default: {
-      main: 'white',
+      main: 'grey',
     },
     primary: {
       main: colors[colorTheme].primary,

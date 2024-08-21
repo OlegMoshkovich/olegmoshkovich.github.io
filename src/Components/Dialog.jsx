@@ -48,7 +48,6 @@ export default function Dialog({
           {dialogTitle}
         </DialogTitle>
         <DialogContent
-          sx={{maxWidth:'300px'}}
         >
           <DialogContentText>
             <Typography variant={'body2'}>
