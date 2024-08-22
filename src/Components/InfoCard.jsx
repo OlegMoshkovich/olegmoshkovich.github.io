@@ -68,16 +68,16 @@ const InfoCard = ({ title, description, expandedDescription, image, tag }) => {
               </Typography>
             }
             dialogContent={
-            <Stack>
-              <ImageList rowHeight={300} cols={2}>
-                  <ImageListItem key={'image'} >
+            <Stack direction='column' justifyContent={'center'} alignItems={'center'}>
+              {/* <ImageList rowHeight={300} cols={2}> */}
+                  <ImageListItem key={'image'} sx={{width:'90%'}}>
                     <img
                       src={image}
                       alt={'image_hero'}
                       loading="lazy"
                     />
                   </ImageListItem>
-              </ImageList>
+              {/* </ImageList> */}
                 <Typography variant='body2'>
                   {expandedDescription}
                 </Typography>

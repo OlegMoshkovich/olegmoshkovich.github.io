@@ -26,7 +26,7 @@ const Social = () => {
         icon={<DescriptionOutlinedIcon fontSize='small'/>}
         dialogTitle={
           <Typography variant='body2'>
-            Hi
+            History
           </Typography>
         }
         dialogContent={
