@@ -60,7 +60,7 @@ export const ProjectsObj = [
     title: 'Outer Labs for Google',
     tag: 'Engineer',
     image: `${process.env.PUBLIC_URL}/images/2.png`,
-    description: 'Participated in the development and maintenance of the web applications Panorama, Blueprint, and Portfolio. Worked on the library of Outer Labs react components.',
+    description: 'Front-End development and maintenance of the web applications Panorama, Blueprint, and Portfolio. Participated in the development of React Library of UI components.',
     expandedDescription: `
     I joined Outer Labs in 2022,
     right at the beginning of COVID.

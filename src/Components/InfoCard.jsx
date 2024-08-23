@@ -16,11 +16,12 @@ import {
 import Dialog from './Dialog'
 import AspectRatioIcon from '@mui/icons-material/AspectRatio';
 
-const InfoCard = ({ title, description, expandedDescription, image, tag }) => {
+const InfoCard = ({ title, description, expandedDescription, image, link='https://bldrs.ai/', tag }) => {
   const [expanded, setExpanded] = useState(false)
   const {expandAll} = useStore()
   const expandCards = expanded || expandAll
   const theme = useTheme()
+  const linkStyle = link.length>0 && {textDecoration: 'underline', cursor:'pointer'}
 
   return (
     <Card
@@ -43,11 +44,12 @@ const InfoCard = ({ title, description, expandedDescription, image, tag }) => {
       }
       <CardContent sx={{ flexGrow: 1, overflow:'scroll' }}>
         <Typography
-          sx={{ fontWeight: 'bold' }}
+          sx={{ fontWeight: 'bold', ...linkStyle }}
           gutterBottom
           variant="body2"
           component="div"
           textAlign="center"
+          onClick={()=>window.open(link)}
         >
           {title}
         </Typography>
