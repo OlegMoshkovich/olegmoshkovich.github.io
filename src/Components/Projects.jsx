@@ -9,10 +9,8 @@ import {
   Stack,
   Toolbar,
   Typography,
-  // Tooltip,
   useTheme,
   Grid,
-  // Switch,
   useMediaQuery
 } from '@mui/material';
 import useStore from '../Store';
@@ -26,7 +24,6 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 import Corousel from './Corousel';
 
-
 const Transition = React.forwardRef((props, ref) => (
   <Slide direction="up" ref={ref} {...props} />
 ));
@@ -34,14 +31,25 @@ const Transition = React.forwardRef((props, ref) => (
 const Projects = () => {
   const [open, setOpen] = useState(false);
   const [view, setView] = useState('grid'); // New state to manage views
+  const [isReversed, setIsReversed] = useState(false); // State to manage order of projects
 
   const theme = useTheme();
   const { toggleExpandAll } = useStore();
   const isMobile = useMediaQuery('(max-width:600px)');
 
   const handleViewChange = (newView) => {
-    setView(newView);
+    if (view === newView) {
+      // If the view is already active, reverse the order
+      setIsReversed(!isReversed);
+    } else {
+      // Change view and reset order to default
+      setView(newView);
+      setIsReversed(false);
+    }
   };
+
+  // Determine the order of projects based on `isReversed` state
+  const displayedProjects = isReversed ? [...ProjectsObj].reverse() : ProjectsObj;
 
   return (
     <>
@@ -74,23 +82,6 @@ const Projects = () => {
               </Typography>
             </Stack>
             <Box sx={{ flexGrow: 1 }} />
-            {/* <Tooltip title="Only Descriptions">
-              <Switch onChange={() => toggleExpandAll()} size="small" />
-            </Tooltip>
-              {
-                !isMobile &&
-                <IconButton
-                sx={{
-                  margin: '0 4px',
-                  borderRadius: '50%',
-                  boxShadow: view === 'corousel' ? theme.shadows[1] : 'none', // Apply shadow when selected
-                }}
-                size="small"
-                onClick={() => handleViewChange('corousel')}
-              >
-                <CropPortraitIcon fontSize="small" />
-              </IconButton>
-              } */}
             <IconButton
               sx={{
                 margin: '0 4px',
@@ -113,18 +104,19 @@ const Projects = () => {
             >
               {isMobile ? <KeyboardArrowRightIcon fontSize="small" /> : <FastForwardOutlinedIcon fontSize="small" />}
             </IconButton>
-            <IconButton sx={{margin: '0 4px'}} size="small" onClick={() => setOpen(false)}>
+            <IconButton sx={{ margin: '0 4px' }} size="small" onClick={() => setOpen(false)}>
               <CloseIcon fontSize="small" />
             </IconButton>
           </Toolbar>
         </AppBar>
         {view === 'timeline' && (
           <Box
-          sx={{
-            paddingTop: isMobile ? '60px' : '86px',
-            width: '100%',
-            paddingBottom: '16px',
-          }}>
+            sx={{
+              paddingTop: isMobile ? '60px' : '86px',
+              width: '100%',
+              paddingBottom: '16px',
+            }}
+          >
             <Stack
               spacing={2}
               direction="row"
@@ -135,21 +127,18 @@ const Projects = () => {
                 paddingBottom: '16px',
               }}
             >
-              <Box/>
-              {ProjectsObj.map((project, index) => {
-                console.log('Project:', project); // Print the project object to the console
-                return (
-                  <Box key={index} sx={{ padding: '10px' }}>
-                    <InfoCard
-                      tag={project.tag}
-                      title={project.title}
-                      description={project.description}
-                      expandedDescription={project.expandedDescription}
-                      image={project.image}
-                    />
-                  </Box>
-                );
-              })}
+              <Box />
+              {displayedProjects.map((project, index) => (
+                <Box key={index} sx={{ padding: '10px' }}>
+                  <InfoCard
+                    tag={project.tag}
+                    title={project.title}
+                    description={project.description}
+                    expandedDescription={project.expandedDescription}
+                    image={project.image}
+                  />
+                </Box>
+              ))}
               <Box />
             </Stack>
           </Box>
@@ -164,7 +153,7 @@ const Projects = () => {
             }}
           >
             <Box />
-            {ProjectsObj.map((project, index) => (
+            {displayedProjects.map((project, index) => (
               <Box key={index} sx={{ padding: '10px' }}>
                 <InfoCard
                   tag={project.tag}

@@ -71,7 +71,6 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
             }
             dialogContent={
             <Stack direction='column' justifyContent={'center'} alignItems={'center'}>
-              {/* <ImageList rowHeight={300} cols={2}> */}
                   <ImageListItem key={'image'} sx={{width:'90%'}}>
                     <img
                       src={image}
@@ -79,7 +78,6 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
                       loading="lazy"
                     />
                   </ImageListItem>
-              {/* </ImageList> */}
                 <Typography variant='body2'>
                   {expandedDescription}
                 </Typography>

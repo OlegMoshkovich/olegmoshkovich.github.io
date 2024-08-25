@@ -25,20 +25,20 @@ function Description() {
             Hello.
             </Typography>
             <Typography  variant='body2' sx={{fontWeight:'bold'}}>
-            I am a product manager and product engineer operating at the intersection of AEC and technology.
+            I am a builder working at the intersection of AEC and technology.
             </Typography>
             <Typography  variant='body2'>
-            I have a deep appreciation for constructed spaces and strive to make a difference in the world through my work.
-            I have worked on construction sites, engineering and design offices, and startups.
+            I have a deep appreciation for constructed spaces and the systems that operate on a mega scale.
+            My experience spans construction sites, engineering and design offices, and startups.
             </Typography>
             <Typography variant='body2'>
             Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into AEC workflows. We developed and open-sourced Conway,
             the fastest and most complete engine for processing IFC models, and a web application called Share, built on top of the Conway engine, which provides integration
             with GitHub for versioning and issue tracking.
             </Typography>
-            {/* <Typography variant='body2' sx={{fontWeight:'bold'}}>
-            Let's collaborate!
-            </Typography> */}
+            <Typography variant='body2' sx={{fontWeight:'bold'}}>
+              Let's build together!
+            </Typography>
           </Stack>
         </Paper>
   );
