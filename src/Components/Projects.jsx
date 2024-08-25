@@ -19,8 +19,10 @@ import { ProjectsObj } from '../data/Project';
 import InfoCard from './InfoCard';
 import GridViewIcon from '@mui/icons-material/GridView';
 import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 import Corousel from './Corousel';
 
@@ -30,8 +32,12 @@ const Transition = React.forwardRef((props, ref) => (
 
 const Projects = () => {
   const [open, setOpen] = useState(false);
-  const [view, setView] = useState('grid'); // New state to manage views
+  const [view, setView] = useState('grid'); // State to manage views
   const [isReversed, setIsReversed] = useState(false); // State to manage order of projects
+  const [arrowDirection, setArrowDirection] = useState({
+    grid: 'down',
+    timeline: 'right',
+  }); // State to manage arrow directions
 
   const theme = useTheme();
   const { toggleExpandAll } = useStore();
@@ -39,17 +45,32 @@ const Projects = () => {
 
   const handleViewChange = (newView) => {
     if (view === newView) {
-      // If the view is already active, reverse the order
+      // If the view is already active, reverse the order and toggle arrow direction
       setIsReversed(!isReversed);
+      setArrowDirection((prevDirection) => ({
+        ...prevDirection,
+        [newView]:
+          prevDirection[newView] === 'down'
+            ? 'up'
+            : prevDirection[newView] === 'up'
+            ? 'down'
+            : prevDirection[newView] === 'right'
+            ? 'left'
+            : 'right',
+      }));
     } else {
-      // Change view and reset order to default
+      // Change view, reset order to default, and set arrow direction to default
       setView(newView);
       setIsReversed(false);
+      setArrowDirection({
+        grid: 'down',
+        timeline: 'right',
+      });
     }
   };
 
   // Determine the order of projects based on `isReversed` state
-  const displayedProjects = isReversed ? [...ProjectsObj].reverse() : ProjectsObj;
+  const displayedProjects = isReversed ? ProjectsObj : [...ProjectsObj].reverse();
 
   return (
     <>
@@ -82,33 +103,64 @@ const Projects = () => {
               </Typography>
             </Stack>
             <Box sx={{ flexGrow: 1 }} />
+
+            {/* Grid View Button */}
             <IconButton
               sx={{
                 margin: '0 4px',
                 borderRadius: '50%',
-                boxShadow: view === 'grid' ? theme.shadows[1] : 'none', // Apply shadow when selected
+                boxShadow: view === 'grid' ? theme.shadows[1] : 'none',
               }}
               size="small"
               onClick={() => handleViewChange('grid')}
             >
-              {isMobile ? <KeyboardArrowDownIcon fontSize="small" /> : <GridViewIcon fontSize="small" />}
+              {isMobile ? (
+                arrowDirection.grid === 'down' ? (
+                  <KeyboardArrowDownIcon fontSize="small" />
+                ) : (
+                  <KeyboardArrowUpIcon fontSize="small" />
+                )
+              ) : (
+                arrowDirection.grid === 'down' ? (
+                  <KeyboardArrowDownIcon fontSize="small" />
+                ) : (
+                  <KeyboardArrowUpIcon fontSize="small" />
+                )
+              )}
             </IconButton>
+
+            {/* Timeline View Button */}
             <IconButton
               sx={{
                 margin: '0 4px',
                 borderRadius: '50%',
-                boxShadow: view === 'timeline' ? theme.shadows[1] : 'none', // Apply shadow when selected
+                boxShadow: view === 'timeline' ? theme.shadows[1] : 'none',
               }}
               size="small"
               onClick={() => handleViewChange('timeline')}
             >
-              {isMobile ? <KeyboardArrowRightIcon fontSize="small" /> : <FastForwardOutlinedIcon fontSize="small" />}
+              {isMobile ? (
+                arrowDirection.timeline === 'right' ? (
+                  <KeyboardArrowRightIcon fontSize="small" />
+                ) : (
+                  <KeyboardArrowLeftIcon fontSize="small" />
+                )
+              ) : (
+                arrowDirection.timeline === 'right' ? (
+                  <KeyboardArrowRightIcon fontSize="small" />
+                ) : (
+                  <KeyboardArrowLeftIcon fontSize="small" />
+                )
+              )}
             </IconButton>
+
             <IconButton sx={{ margin: '0 4px' }} size="small" onClick={() => setOpen(false)}>
               <CloseIcon fontSize="small" />
             </IconButton>
           </Toolbar>
         </AppBar>
+
+        {/* Timeline View */}
         {view === 'timeline' && (
           <Box
             sx={{
@@ -143,6 +195,8 @@ const Projects = () => {
             </Stack>
           </Box>
         )}
+
+        {/* Grid View */}
         {view === 'grid' && (
           <Grid
             container
@@ -167,6 +221,8 @@ const Projects = () => {
             <Box />
           </Grid>
         )}
+
+        {/* Corousel View */}
         {view === 'corousel' && <Corousel />}
       </Dialog>
     </>
