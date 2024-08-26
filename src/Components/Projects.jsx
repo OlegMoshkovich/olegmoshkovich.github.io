@@ -17,13 +17,13 @@ import useStore from '../Store';
 import CloseIcon from '@mui/icons-material/Close';
 import { ProjectsObj } from '../data/Project';
 import InfoCard from './InfoCard';
-import GridViewIcon from '@mui/icons-material/GridView';
-import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
+// import GridViewIcon from '@mui/icons-material/GridView';
+// import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
-import CropPortraitIcon from '@mui/icons-material/CropPortrait';
+// import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 import Corousel from './Corousel';
 
 const Transition = React.forwardRef((props, ref) => (
@@ -33,14 +33,14 @@ const Transition = React.forwardRef((props, ref) => (
 const Projects = () => {
   const [open, setOpen] = useState(false);
   const [view, setView] = useState('grid'); // State to manage views
-  const [isReversed, setIsReversed] = useState(false); // State to manage order of projects
+  const [isReversed, setIsReversed] = useState(true); // State to manage order of projects
   const [arrowDirection, setArrowDirection] = useState({
     grid: 'down',
     timeline: 'right',
   }); // State to manage arrow directions
 
   const theme = useTheme();
-  const { toggleExpandAll } = useStore();
+  // const { toggleExpandAll } = useStore();
   const isMobile = useMediaQuery('(max-width:600px)');
 
   const handleViewChange = (newView) => {

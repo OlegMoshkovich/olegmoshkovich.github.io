@@ -22,18 +22,17 @@ function Description() {
         >
           <Stack justifyContent={'center'}  spacing={1} sx={{padding:'30px 10px', width:isMobile ? 320 : 500}}>
             <Typography  variant='body2' sx={{fontWeight:'bold'}}>
-            Hello.
+            About
             </Typography>
             <Typography  variant='body2' sx={{fontWeight:'bold'}}>
             I am a builder working at the intersection of AEC and technology.
             </Typography>
             <Typography  variant='body2'>
             I have a deep appreciation for constructed spaces and the systems that operate on a mega scale.
-            My experience spans construction sites, engineering and design offices, and startups.
+            My experience spans design and engineering offices, construction sites, and startups.
             </Typography>
             <Typography  variant='body2'>
-              I am interested in solving difficult problems and drawing from my varied experiences to design systems and processes
-              for finding solutions to the project challenges.
+            I am interested in solving difficult problems by designing and implementing systems and processes for finding solutions to product or project challenges.
             </Typography>
             <Typography variant='body2'>
               Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into AEC workflows.

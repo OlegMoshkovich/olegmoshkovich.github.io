@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import Stack from '@mui/material/Stack'
 import IconButton from '@mui/material/IconButton'
 import useStore from '../Store';
-import {colors} from '../colors'
-import LightModeIcon from '@mui/icons-material/LightMode';
+import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import NightlightIcon from '@mui/icons-material/Nightlight';
 
 
@@ -32,7 +31,7 @@ return(
       size="small"
       onClick={() => switchColor()}
     >
-      {light ? <LightModeIcon fontSize='inherit' color='primary'/> : <NightlightIcon fontSize='inherit' color='primary'/>}
+      {light ? <LightModeOutlinedIcon fontSize='inherit' color='primary'/> : <NightlightIcon fontSize='inherit' color='primary'/>}
 
     </IconButton>
   </Stack>
