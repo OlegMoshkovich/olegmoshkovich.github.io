@@ -29,7 +29,7 @@ function Share() {
     >
       <Description/>
     </Stack>
-    <Box sx={{position: 'absolute', bottom: 20, left: 20}}>
+    <Box sx={{position: 'absolute', bottom: 14, left: 20}}>
       <Palette/>
     </Box>
     <Box sx={{position: 'absolute', bottom: 14, right: 20}}>
