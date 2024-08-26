@@ -7,7 +7,7 @@ export const ProjectsObj = [
     expandedDescription: `Project story is coming soon.`,
   },
   {
-    title: 'Grand Central Expansion',
+    title: 'New York Grand Central',
     tag: 'VDC Team Lead',
     image: `${process.env.PUBLIC_URL}/images/5.png`,
     description: 'Led the team and developed a digital strategy for the East Side Access mega project, creating an ecosystem that included BIM, 4D modeling, and bespoke web apps for data collection.',
@@ -52,7 +52,7 @@ export const ProjectsObj = [
     expandedDescription: `Project story is coming soon.`,
   },
   {
-    title: 'GT Dubai',
+    title: 'W hotel',
     tag: 'BIM Specialist',
     image: `${process.env.PUBLIC_URL}/images/9.png`,
     description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',

@@ -28,7 +28,7 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
         sx={{
           width: 360,
           minWidth: 360,
-          height: 560,
+          height: 580,
           display: 'flex',
           flexDirection: 'column',
           flexShrink: 0,
@@ -42,7 +42,7 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
           alt="project image"
         />
       }
-      <CardContent sx={{ flexGrow: 1, overflow:'scroll' }}>
+      <CardContent sx={{ flexGrow: 1, overflowX:'hidden' }}>
         <Typography
           sx={{ fontWeight: 'bold', ...linkStyle }}
           gutterBottom
