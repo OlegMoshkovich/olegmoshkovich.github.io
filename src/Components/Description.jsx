@@ -38,8 +38,7 @@ function Description() {
               Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into AEC workflows.
             </Typography>
             <Typography variant='body2'>
-            I was born in Kharkov, Ukraine, and it deeply saddens me to witness at a distance the atrocities and destruction taking place there.
-            I hope to use my knowledge and experience to contribute to the Rebuild Ukraine movement.
+            I hope to use my knowledge and experience to contribute to the Rebuild Ukraine movement 🇺🇦
             </Typography>
             <Typography variant='body2' sx={{fontWeight:'bold'}}>
               Let's build together!
