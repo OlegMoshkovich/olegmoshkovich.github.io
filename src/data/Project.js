@@ -1,5 +1,119 @@
 export const ProjectsObj = [
   {
+    title: 'World Trade Center',
+    tag: 'BIM Manager',
+    image: `${process.env.PUBLIC_URL}/images/7.png`,
+    description: 'Managed a comprehensive 4D digital twin of the World Trade Center mega program, used for schedule analysis and time-based conflict resolution.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
+    title: 'Grand Central Expansion',
+    tag: 'VDC Team Lead',
+    image: `${process.env.PUBLIC_URL}/images/5.png`,
+    description: 'Led the team and developed a digital strategy for the East Side Access mega project, creating an ecosystem that included BIM, 4D modeling, and bespoke web apps for data collection.',
+    expandedDescription: `
+    I was invited to join the East Side Access project because of my involvement in
+    the World Trade Center project. At the time, East Side Access was the second-largest
+    project in New York and the biggest construction development that the MTA had undertaken
+    in the last 50 years. The scope of the work totaled about $18 billion and encompassed work
+    spanning more than 10 major contracts, involving underground excavation and construction,
+    along with the major reconfiguration of the biggest interlocking in the northeastern United States.
+    The goal of the project was to expand the current Grand Central Terminal by introducing an underground
+    station capable of receiving eight trains. This three-level structure spanned nine city blocks
+    and was situated 150 feet below ground, under one of the most densely populated urban environments
+    in the world.
+    The operation was highly complex, with the full scope of the project described in
+    approximately 100,000 two-dimensional drawings and a mountain of other documents
+    that documented various aspects of the operation. Given our experience on the
+    World Trade Center project, we were tasked with developing the digital strategy
+    for the program. We decided that it would be best to co-locate and establish a
+    presence in the main program office at 453 7th Avenue, where the program's senior
+    management was making high-level decisions.
+    It was clear that the first order of business was to create Building Information Models
+    (BIM) of all the program components. We interviewed the project team and identified the
+     critical portions that needed to be visualized to aid in construction and coordination.
+     At the time, the excavation of the major contracts had been completed, and the program was
+     preparing for the bidding process of the major contracts. We started with the southern portions
+     of the program and created models of the underground facilities.
+    Since the program comprised tunnels, facilities, and alignment portions, and due to the
+    widespread adoption of the Revit platform, it was decided to use Revit for modeling and
+    Synchro for 4D planning. Eventually, we modeled the entire project piece by piece, assisting
+    the project team with the issues at hand, and created one of the largest BIM models in the world.
+     The master model was composed of about 50 components, 4 miles of tunnels, a vast terrain of all the
+      interlocking tracks, a concourse of the station, and two caverns housing four platforms
+      each...To be continued.
+    `,
+  },
+  {
+    title: 'Zuhai Business Center',
+    tag: 'Computational Designer',
+    image: `${process.env.PUBLIC_URL}/images/8.png`,
+    description: 'Assisted the architectural team with the computational design of the Zhuhai Shizimen Business Center by developing a parametric model of the project using automation within the Digital Project CAD system.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
+    title: 'GT Dubai',
+    tag: 'BIM Specialist',
+    image: `${process.env.PUBLIC_URL}/images/9.png`,
+    description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
+    title: 'City Point',
+    tag: 'BIM Lead',
+    image: `${process.env.PUBLIC_URL}/images/6.png`,
+    description: 'Developed BIM models, and established processes for coordination and issue resolution during design and construction phases of the project.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
+    title: 'Book - Implementing VDC',
+    tag: 'Co-Author',
+    image: `${process.env.PUBLIC_URL}/images/4.png`,
+    description: 'Co-authored a book outlining the team structure, software, and production ecosystem necessary for effective Virtual Design and Construction (VDC) using BIM.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
+    title: 'Human Condition Safety',
+    tag: 'Product manager',
+    image: `${process.env.PUBLIC_URL}/images/3.png`,
+    description: 'Managed product development for the HCS ecosystem, which included a smart vest and a suite of analytics products.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
+    title: 'Outer Labs for Google',
+    tag: 'Engineer',
+    image: `${process.env.PUBLIC_URL}/images/2.png`,
+    description: 'Front-End development and maintenance of the web applications Panorama, Blueprint, and Portfolio. Participated in the development of React Library of UI components.',
+    expandedDescription: `
+    I joined Outer Labs in 2022,
+    right at the beginning of COVID.
+    The company was working on a suite of apps for
+    Google to assist the internal design, construction, and management
+     teams in overseeing Google's global real estate portfolio. I started
+     working on a project called Panorama, which was an application focusing on the environmental
+     performance of spaces by analyzing panels comprising building facades against environmental
+     and structural performance criteria. In this application, the designer was equipped with a tool
+     that could be used to configure the panel shading system, select a specific type of glass, and
+     receive a score that would determine the feasibility of this specific configuration from an ESG
+     (Environmental, Social, and Governance) standpoint. We used React for the front end, with the React
+     Three Fiber package to visualize the panel. The system's backend was developed using Go, with GraphQL
+     as the layer of data access. The information driving the decisions came from detailed design
+     sheets provided by structural and environmental facade consultants. In addition to focusing on the
+      UI components, I worked with consultants to distill all of the formulas used in the calculations.
+    I was a flexible resource within the organization and was able to adapt to different projects. The next
+     project I worked on was Blueprint, which was a catalog of building parts organized by type, where all of
+     the design systems were represented. Designers could access information about all of the standard parts
+     used in construction and download BIM (Building Information Modeling) components to use in their designs.
+     I joined a long-term contributor to the project to assist with the UI redesign of the system.
+    The next project I worked on was Portfolio, an application used by interior designers to study different
+    office layout schemes as Google was preparing to reconfigure its offices to fit the hybrid work schedule
+    of its workforce. Users could upload existing floor plans and quickly assemble a scheme using a library of
+    predefined pods. They could also configure the pods in the configurator to quickly assess the feasibility
+    of the proposed design. The scheme would be evaluated against several criteria, with the final score
+    determining the quality of the proposed design...To be Continued.
+    `,
+  },
+  {
     title: 'Bldrs.ai',
     tag: 'Co-Founder',
     image: `${process.env.PUBLIC_URL}/images/1.png`,
@@ -55,119 +169,5 @@ export const ProjectsObj = [
       The system is slowly coming together, with the open-source release of the engine scheduled for September,
        the bot functioning in Discord and in builders at the prototype level, and GitHub integration starting to
        function. The world does not stand still, and since our original set of ideas...To be continued.`,
-  },
-  {
-    title: 'Outer Labs for Google',
-    tag: 'Engineer',
-    image: `${process.env.PUBLIC_URL}/images/2.png`,
-    description: 'Front-End development and maintenance of the web applications Panorama, Blueprint, and Portfolio. Participated in the development of React Library of UI components.',
-    expandedDescription: `
-    I joined Outer Labs in 2022,
-    right at the beginning of COVID.
-    The company was working on a suite of apps for
-    Google to assist the internal design, construction, and management
-     teams in overseeing Google's global real estate portfolio. I started
-     working on a project called Panorama, which was an application focusing on the environmental
-     performance of spaces by analyzing panels comprising building facades against environmental
-     and structural performance criteria. In this application, the designer was equipped with a tool
-     that could be used to configure the panel shading system, select a specific type of glass, and
-     receive a score that would determine the feasibility of this specific configuration from an ESG
-     (Environmental, Social, and Governance) standpoint. We used React for the front end, with the React
-     Three Fiber package to visualize the panel. The system's backend was developed using Go, with GraphQL
-     as the layer of data access. The information driving the decisions came from detailed design
-     sheets provided by structural and environmental facade consultants. In addition to focusing on the
-      UI components, I worked with consultants to distill all of the formulas used in the calculations.
-    I was a flexible resource within the organization and was able to adapt to different projects. The next
-     project I worked on was Blueprint, which was a catalog of building parts organized by type, where all of
-     the design systems were represented. Designers could access information about all of the standard parts
-     used in construction and download BIM (Building Information Modeling) components to use in their designs.
-     I joined a long-term contributor to the project to assist with the UI redesign of the system.
-    The next project I worked on was Portfolio, an application used by interior designers to study different
-    office layout schemes as Google was preparing to reconfigure its offices to fit the hybrid work schedule
-    of its workforce. Users could upload existing floor plans and quickly assemble a scheme using a library of
-    predefined pods. They could also configure the pods in the configurator to quickly assess the feasibility
-    of the proposed design. The scheme would be evaluated against several criteria, with the final score
-    determining the quality of the proposed design...To be Continued.
-    `,
-  },
-  {
-    title: 'Human Condition Safety',
-    tag: 'Product manager',
-    image: `${process.env.PUBLIC_URL}/images/3.png`,
-    description: 'Managed product development for the HCS ecosystem, which included a smart vest and a suite of analytics products.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'Book - Implementing VDC',
-    tag: 'Co-Author',
-    image: `${process.env.PUBLIC_URL}/images/4.png`,
-    description: 'Co-authored a book outlining the team structure, software, and production ecosystem necessary for effective Virtual Design and Construction (VDC) using BIM.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'Grand Central Expansion',
-    tag: 'VDC Team Lead',
-    image: `${process.env.PUBLIC_URL}/images/5.png`,
-    description: 'Led the team and developed a digital strategy for the East Side Access mega project, creating an ecosystem that included BIM, 4D modeling, and bespoke web apps for data collection.',
-    expandedDescription: `
-    I was invited to join the East Side Access project because of my involvement in
-    the World Trade Center project. At the time, East Side Access was the second-largest
-    project in New York and the biggest construction development that the MTA had undertaken
-    in the last 50 years. The scope of the work totaled about $18 billion and encompassed work
-    spanning more than 10 major contracts, involving underground excavation and construction,
-    along with the major reconfiguration of the biggest interlocking in the northeastern United States.
-    The goal of the project was to expand the current Grand Central Terminal by introducing an underground
-    station capable of receiving eight trains. This three-level structure spanned nine city blocks
-    and was situated 150 feet below ground, under one of the most densely populated urban environments
-    in the world.
-    The operation was highly complex, with the full scope of the project described in
-    approximately 100,000 two-dimensional drawings and a mountain of other documents
-    that documented various aspects of the operation. Given our experience on the
-    World Trade Center project, we were tasked with developing the digital strategy
-    for the program. We decided that it would be best to co-locate and establish a
-    presence in the main program office at 453 7th Avenue, where the program's senior
-    management was making high-level decisions.
-    It was clear that the first order of business was to create Building Information Models
-    (BIM) of all the program components. We interviewed the project team and identified the
-     critical portions that needed to be visualized to aid in construction and coordination.
-     At the time, the excavation of the major contracts had been completed, and the program was
-     preparing for the bidding process of the major contracts. We started with the southern portions
-     of the program and created models of the underground facilities.
-    Since the program comprised tunnels, facilities, and alignment portions, and due to the
-    widespread adoption of the Revit platform, it was decided to use Revit for modeling and
-    Synchro for 4D planning. Eventually, we modeled the entire project piece by piece, assisting
-    the project team with the issues at hand, and created one of the largest BIM models in the world.
-     The master model was composed of about 50 components, 4 miles of tunnels, a vast terrain of all the
-      interlocking tracks, a concourse of the station, and two caverns housing four platforms
-      each...To be continued.
-    `,
-  },
-  {
-    title: 'City Point',
-    tag: 'BIM Lead',
-    image: `${process.env.PUBLIC_URL}/images/6.png`,
-    description: 'Developed BIM models, and established processes for coordination and issue resolution during design and construction phases of the project.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'World Trade Center',
-    tag: 'BIM Manager',
-    image: `${process.env.PUBLIC_URL}/images/7.png`,
-    description: 'Managed a comprehensive 4D digital twin of the World Trade Center mega program, used for schedule analysis and time-based conflict resolution.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'Zuhai Business Center',
-    tag: 'Computational Designer',
-    image: `${process.env.PUBLIC_URL}/images/8.png`,
-    description: 'Assisted the architectural team with the computational design of the Zhuhai Shizimen Business Center by developing a parametric model of the project using automation within the Digital Project CAD system.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'GT Dubai',
-    tag: 'BIM Specialist',
-    image: `${process.env.PUBLIC_URL}/images/9.png`,
-    description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',
-    expandedDescription: `Project story is coming soon.`,
   },
 ];
