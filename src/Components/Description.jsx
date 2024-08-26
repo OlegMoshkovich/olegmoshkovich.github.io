@@ -32,10 +32,14 @@ function Description() {
             My experience spans design and engineering offices, construction sites, and startups.
             </Typography>
             <Typography  variant='body2'>
-            I am interested in solving difficult problems by designing and implementing systems and processes for finding solutions to product or project challenges.
+            I am interested in solving difficult problems by designing and implementing systems and processes to address product or project challenges.
             </Typography>
             <Typography variant='body2'>
               Most recently, I co-founded Bldrs.ai, a company aimed at introducing tech tooling into AEC workflows.
+            </Typography>
+            <Typography variant='body2'>
+            I was born in Kharkov, Ukraine, and it deeply saddens me to witness at a distance the atrocities and destruction taking place there.
+            I hope to use my knowledge and experience to contribute to the Rebuild Ukraine movement.
             </Typography>
             <Typography variant='body2' sx={{fontWeight:'bold'}}>
               Let's build together!
