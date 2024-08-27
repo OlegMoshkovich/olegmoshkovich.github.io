@@ -75,9 +75,9 @@ const Projects = () => {
   return (
     <>
       <Button
-        variant="text"
+        variant="outlined"
         size="small"
-        sx={{ borderRadius: '14px', padding: '5px 10px' }}
+        sx={{ borderRadius: '20px'}}
         color="primary"
         onClick={() => setOpen(true)}
       >
