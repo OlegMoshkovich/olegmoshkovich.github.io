@@ -36,10 +36,12 @@ export default function Dialog({
         <Button
           variant='outlined'
           size="small"
-          sx={{ fontSize: 12, borderRadius:'20px', padding: '2px 6px' }}
+          sx={{ fontSize: '8px', borderRadius:'20px', padding: '2px 6px' }}
           onClick={handleClickOpen}
         >
-          {buttonTitle}
+          <Typography variant='caption'>
+            {buttonTitle}
+          </Typography>
         </Button> :
         <Tooltip title={tooltipTitle}>
           <IconButton size='small' onClick={handleClickOpen} sx={{border:'none'}}>

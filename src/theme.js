@@ -210,7 +210,7 @@ export const themeComponent = {
           },
         }),
         outlined: ({ theme }) => ({
-          fontSize: theme.typography.caption.fontSize,
+          fontSize: theme.typography.body2.fontSize,
           color: theme.palette.primary.main,
           // borderColor: theme.palette.primary.main,
           // '&&:hover': { // Increased specificity
