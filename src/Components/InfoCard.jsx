@@ -58,8 +58,7 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
         </Typography>
       </CardContent>
       <CardActions sx={{ justifyContent: 'space-between', p: 1 }}>
-        <Chip size='small' label={tag} variant="outlined"/>
-        {expandedDescription.length>50 &&
+        <Chip size='small' label={tag} variant="outlined" sx={{border: 'none'}}/>
         <Stack direction='row'>
             <Dialog
             buttonTitle='Read more'
@@ -86,7 +85,6 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
             }
           />
         </Stack>
-      }
       </CardActions>
     </Card>
   );
