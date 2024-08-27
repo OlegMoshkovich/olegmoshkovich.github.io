@@ -30,10 +30,11 @@ function Description() {
             <Typography  variant='body2'>
               I have worked in design and engineering offices, construction sites, and startups.
               These experiences have equipped me with the ability to adapt to different organizational structures and cultures,
-              allowing me to allowing me to contribute effectively in both engineering and product management roles.
+              allowing me to contribute effectively in both engineering and product management roles.
             </Typography>
             <Typography  variant='body2'>
-              I believe open source software and open standards is the future of AEC.
+              I am convinced that open-source software and open standards will shape the future of
+              the building industry's technological foundation.
             </Typography>
             <Typography variant='body2'>
               Most recently, I co-founded Bldrs.ai, a company focused on introducing tech tools into AEC workflows.
