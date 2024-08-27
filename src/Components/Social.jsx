@@ -41,7 +41,12 @@ const Social = () => {
                   </ImageListItem>
               </ImageList>
           <Typography variant='body2'>
-          Click <Link color='primary'>here</Link> to download the CV.
+          Click{' '}
+          <Link color='primary'
+            href='https://drive.google.com/drive/u/0/folders/1tIZ3qAUcsu46h6poDRiaDT-vk024y6mm'
+            target='_blank'
+          >
+          here</Link> to download the CV.
         </Typography>
 
           </Box>
