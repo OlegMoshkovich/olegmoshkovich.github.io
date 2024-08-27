@@ -1,9 +1,23 @@
 export const ProjectsObj = [
   {
+    title: 'Dubai hotel',
+    tag: 'BIM Specialist',
+    image: `${process.env.PUBLIC_URL}/images/9.png`,
+    description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
     title: 'World Trade Center',
     tag: 'BIM Manager',
     image: `${process.env.PUBLIC_URL}/images/7.png`,
     description: 'Managed a comprehensive 4D digital twin of the World Trade Center mega program, used for schedule analysis and time-based conflict resolution.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
+    title: 'Zuhai Business Center',
+    tag: 'Computational Designer',
+    image: `${process.env.PUBLIC_URL}/images/8.png`,
+    description: 'Assisted the architectural team with the computational design of the Zhuhai Shizimen Business Center by developing a parametric model of the project using automation within the Digital Project CAD system.',
     expandedDescription: `Project story is coming soon.`,
   },
   {
@@ -43,20 +57,6 @@ export const ProjectsObj = [
       interlocking tracks, a concourse of the station, and two caverns housing four platforms
       each...To be continued.
     `,
-  },
-  {
-    title: 'Zuhai Business Center',
-    tag: 'Computational Designer',
-    image: `${process.env.PUBLIC_URL}/images/8.png`,
-    description: 'Assisted the architectural team with the computational design of the Zhuhai Shizimen Business Center by developing a parametric model of the project using automation within the Digital Project CAD system.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'W hotel',
-    tag: 'BIM Specialist',
-    image: `${process.env.PUBLIC_URL}/images/9.png`,
-    description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',
-    expandedDescription: `Project story is coming soon.`,
   },
   {
     title: 'City Point',
