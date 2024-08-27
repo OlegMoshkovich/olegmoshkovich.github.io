@@ -28,12 +28,16 @@ function Description() {
               I am a product manager working at the intersection of AEC and technology.
             </Typography>
             <Typography  variant='body2'>
-            I have worked in design and engineering offices, construction sites, and startups.
-            These experiences have equipped me with the ability to adapt to different organizational structures and cultures,
-            allowing me to provide value to teams in both engineering and product management roles.
+              I have worked in design and engineering offices, construction sites, and startups.
+              These experiences have equipped me with the ability to adapt to different organizational structures and cultures,
+              allowing me to allowing me to contribute effectively in both engineering and product management roles.
+            </Typography>
+            <Typography  variant='body2'>
+              I believe open source software and open standards is the future of AEC.
             </Typography>
             <Typography variant='body2'>
               Most recently, I co-founded Bldrs.ai, a company focused on introducing tech tools into AEC workflows.
+              We developed open source software with the Github at the heart of the ecosystem.
             </Typography>
             <Typography variant='body2'>
               I hope to use my knowledge and experience to contribute to the Rebuild Ukraine effort.
