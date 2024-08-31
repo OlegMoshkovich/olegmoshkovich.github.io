@@ -137,7 +137,7 @@ const CV = () => {
               rowWidth={400}
               cols={1}
               sx={{
-                width: '50%',
+                width: isMobile ? '90%' : '50%',
               }}>
                   <ImageListItem key={'image'} >
                     <img
