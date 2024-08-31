@@ -8,6 +8,7 @@ import ImageListItem from '@mui/material/ImageListItem'
 import Link from '@mui/material/Link'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import XIcon from '@mui/icons-material/X';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import Dialog from './Dialog';
 
@@ -20,39 +21,11 @@ const Social = () => {
     spacing={0}
     sx={{marginRight:'-5px'}}
     >
-      <Dialog
-        actionTitle={'OK'}
-        tooltipTitle={'Resume'}
-        icon={<DescriptionOutlinedIcon fontSize='small'/>}
-        dialogTitle={
-          <Typography variant='body2'>
-            History
-          </Typography>
-        }
-        dialogContent={
-          <Box>
-            <ImageList rowHeight={400} cols={1}>
-                  <ImageListItem key={'image'} >
-                    <img
-                      src={`${process.env.PUBLIC_URL}/images/10.png`}
-                      alt={'resume'}
-                      loading="lazy"
-                    />
-                  </ImageListItem>
-              </ImageList>
-          <Typography variant='body2'>
-          Click{' '}
-          <Link color='primary'
-            href='https://drive.google.com/drive/u/0/folders/1tIZ3qAUcsu46h6poDRiaDT-vk024y6mm'
-            target='_blank'
-          >
-          here</Link> to download the CV.
-        </Typography>
-
-          </Box>
-
-        }
-      />
+      <IconButton size='small'
+          onClick={()=>window.open('https://x.com/OlegMoshkovich')}
+          sx={{border:'none'}}>
+        <XIcon fontSize='small'/>
+      </IconButton>
       <IconButton size='small'
           onClick={()=>window.open('https://www.linkedin.com/in/olegmoshkovich/')}
           sx={{border:'none'}}>

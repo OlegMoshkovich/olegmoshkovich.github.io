@@ -25,7 +25,7 @@ function Description() {
               Hello.
             </Typography>
             <Typography  variant='body2' sx={{fontWeight:'bold'}}>
-              I am a product manager working at the intersection of AEC and technology.
+              I am a product manager and product engineer with BIM experetise working at the intersection of AEC and technology.
             </Typography>
             <Typography  variant='body2'>
               I have worked in design and engineering offices, construction sites, and startups.
@@ -37,7 +37,6 @@ function Description() {
             </Typography>
             <Typography variant='body2'>
               Most recently, I co-founded Bldrs.ai, a company focused on introducing tech tools into AEC workflows.
-              We developed open source software with the Github at the heart of the ecosystem.
             </Typography>
             <Typography variant='body2'>
               I hope to use my knowledge and experience to contribute to the Rebuild Ukraine effort.
