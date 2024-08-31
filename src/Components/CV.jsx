@@ -80,7 +80,7 @@ const CV = () => {
       <Button
         variant="outlined"
         size="small"
-        sx={{ borderRadius: '20px'}}
+        sx={{ borderRadius: '14px', padding:'0px 10px'}}
         color="primary"
         onClick={() => setOpen(true)}
       >

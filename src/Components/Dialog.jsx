@@ -36,7 +36,7 @@ export default function Dialog({
         <Button
           variant='outlined'
           size="small"
-          sx={{ fontSize: '8px', borderRadius:'20px', padding: '2px 6px' }}
+          sx={{ fontSize: '8px', borderRadius:'14px', padding: '2px 6px' }}
           onClick={handleClickOpen}
         >
           <Typography variant='caption'>
