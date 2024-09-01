@@ -10,24 +10,12 @@ import {
   Toolbar,
   Typography,
   useTheme,
-  Grid,
   useMediaQuery
 } from '@mui/material';
 import ImageList from '@mui/material/ImageList'
 import ImageListItem from '@mui/material/ImageListItem'
-import useStore from '../Store';
 import CloseIcon from '@mui/icons-material/Close';
-import { ProjectsObj } from '../data/Project';
-import InfoCard from './InfoCard';
-// import GridViewIcon from '@mui/icons-material/GridView';
-// import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import GetAppOutlinedIcon from '@mui/icons-material/GetAppOutlined';
-// import CropPortraitIcon from '@mui/icons-material/CropPortrait';
-import Corousel from './Corousel';
 
 const Transition = React.forwardRef((props, ref) => (
   <Slide direction="up" ref={ref} {...props} />
@@ -35,45 +23,9 @@ const Transition = React.forwardRef((props, ref) => (
 
 const CV = () => {
   const [open, setOpen] = useState(false);
-  const [view, setView] = useState('grid'); // State to manage views
-  const [isReversed, setIsReversed] = useState(false); // State to manage order of projects
-  const [arrowDirection, setArrowDirection] = useState({
-    grid: 'down',
-    timeline: 'right',
-  }); // State to manage arrow directions
 
   const theme = useTheme();
-  // const { toggleExpandAll } = useStore();
   const isMobile = useMediaQuery('(max-width:600px)');
-
-  const handleViewChange = (newView) => {
-    if (view === newView) {
-      // If the view is already active, reverse the order and toggle arrow direction
-      setIsReversed(!isReversed);
-      setArrowDirection((prevDirection) => ({
-        ...prevDirection,
-        [newView]:
-          prevDirection[newView] === 'down'
-            ? 'up'
-            : prevDirection[newView] === 'up'
-            ? 'down'
-            : prevDirection[newView] === 'right'
-            ? 'left'
-            : 'right',
-      }));
-    } else {
-      // Change view, reset order to default, and set arrow direction to default
-      setView(newView);
-      setIsReversed(false);
-      setArrowDirection({
-        grid: 'down',
-        timeline: 'right',
-      });
-    }
-  };
-
-  // Determine the order of projects based on `isReversed` state
-  const displayedProjects = isReversed ? ProjectsObj : [...ProjectsObj].reverse();
 
   return (
     <>
@@ -112,7 +64,7 @@ const CV = () => {
               sx={{
                 margin: '0 4px',
                 borderRadius: '50%',
-                boxShadow: view === 'timeline' ? theme.shadows[1] : 'none',
+                boxShadow: theme.shadows[1],
               }}
               size="small"
               onClick={() => window.open('https://drive.google.com/drive/u/0/folders/1tIZ3qAUcsu46h6poDRiaDT-vk024y6mm')}
