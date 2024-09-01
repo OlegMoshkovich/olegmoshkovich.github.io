@@ -25,12 +25,12 @@ function Description() {
               Hello.
             </Typography>
             <Typography  variant='body2' sx={{fontWeight:'bold'}}>
-              I am a product manager and product engineer with BIM experetise working at the intersection of AEC and technology.
+              I am a product architect and product engineer with BIM experetise working at the intersection of AEC and technology.
             </Typography>
             <Typography  variant='body2'>
               I have worked in design and engineering offices, construction sites, and startups.
               These experiences have equipped me with the ability to adapt to different organizational structures and cultures,
-              allowing me to contribute effectively in both engineering and product management roles.
+              allowing me to contribute effectively in both engineering and product roles.
             </Typography>
             <Typography  variant='body2'>
               I am convinced that open-source software and open standards are shaping the technological foundation of the building industry.
