@@ -33,7 +33,7 @@ function Description() {
               allowing me to contribute effectively in both engineering and product roles.
             </Typography>
             <Typography  variant='body2'>
-              I am convinced that open-source software and open standards are shaping the technological foundation of the building industry.
+              I am convinced that open-standards and open-source software are shaping the technological foundation of the building industry.
             </Typography>
             <Typography variant='body2'>
               Most recently, I co-founded Bldrs.ai, a company focused on introducing tech tools into AEC workflows.
