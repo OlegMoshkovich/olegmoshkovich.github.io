@@ -29,8 +29,6 @@ function Description() {
           </Typography>
           <Typography variant='body2'>
             I have worked in design and engineering offices, on construction sites, and in startups.
-            These experiences have equipped me with the ability to adapt to different organizational structures and cultures,
-            allowing me to contribute effectively in both engineering and product roles.
           </Typography>
           <Typography variant='body2'>
             Most recently, I co-founded Bldrs.ai, a company focused on introducing tech tools into AEC workflows.
