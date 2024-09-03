@@ -25,7 +25,7 @@ function Description() {
             Hello.
           </Typography>
           <Typography variant='body2' sx={{ fontWeight: 'bold' }}>
-            I am a product manager and product engineer with BIM expertise, working at the intersection of AEC and technology.
+            I am a product engineer and product manager with BIM expertise, working at the intersection of AEC and technology.
           </Typography>
           <Typography variant='body2'>
             I have worked in design and engineering offices, on construction sites, and in startups.
