@@ -12,9 +12,9 @@ export default function PrimaryAppBar({ darkTheme, changeTheme, onGoToLocation }
 
   return (
     <AppBar
-      color='secondary'
+      color='default'
       elevation={0}
-      sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, borderBottom: `1px solid ${theme.palette.background.paper}`, backgroundColor: theme.palette.background.default }}
+      sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, borderBottom: `1px solid ${theme.palette.background.paper}`, backgroundColor: theme.palette.background.primary }}
     >
     <Toolbar>
       <LeftSide onGoToLocation={onGoToLocation}/>

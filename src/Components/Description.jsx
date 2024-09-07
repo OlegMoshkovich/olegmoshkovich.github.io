@@ -17,13 +17,19 @@ function Description() {
           zIndex:3,
           backgroundColor: theme.palette.background.default,
           color: theme.palette.primary.main,
-          // minWidth: '200px',
-          padding: '0px 10px'
+          padding: '0px 10px',
+          height:  isMobile ? '60%' : '560',
+          overflow:'scroll'
         }}
         >
-          <Stack justifyContent={'center'}  spacing={1} sx={{padding:'30px 10px', width:isMobile ? 320 : 500}}>
+          <Stack justifyContent={'center'}  spacing={1}
+          sx={{
+          padding:'20px 10px',
+          width:isMobile ? 320 : 500,
+          }}>
           <Typography variant='body2' sx={{ fontWeight: 'bold' }}>
           Oleg Moshkovich is a multi-disciplinary product architect operating at the intersection of architecture / engineering / construction (AEC) x technology.
+          <br/>
           Within AEC, he has led projects at various scales and degrees of complexity.
           Oleg started his career working at Gehry Technologies in Dubai,
           leveraging methods appropriated from the aerospace industry to structure architectural projects which demanded advanced precision during construction.
