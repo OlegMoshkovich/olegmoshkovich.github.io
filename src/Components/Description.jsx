@@ -23,21 +23,19 @@ function Description() {
         >
           <Stack justifyContent={'center'}  spacing={1} sx={{padding:'30px 10px', width:isMobile ? 320 : 500}}>
           <Typography variant='body2' sx={{ fontWeight: 'bold' }}>
-            Hello.
-          </Typography>
-          <Typography variant='body2' sx={{ fontWeight: 'bold' }}>
-            I am a product engineer and product manager with BIM expertise, working at the intersection of AEC and technology.
-          </Typography>
-          <Typography variant='body2'>
-            I have worked in design and engineering offices, on construction sites, and in startups.
-            These experiences have equipped me with the ability to adapt to different organizational structures and cultures,
-            allowing me to contribute effectively in both engineering and product roles.
-          </Typography>
-          <Typography variant='body2'>
-            Most recently, I co-founded Bldrs.ai, a company focused on introducing tech tools into AEC workflows.
-          </Typography>
-          <Typography variant='body2'>
-            I hope to use my knowledge and experience to contribute to the Rebuild Ukraine effort.
+          Oleg Moshkovich is a multi-disciplinary product architect operating at the intersection of architecture / engineering / construction (AEC) x technology.
+          Within AEC, he has led projects at various scales and degrees of complexity.
+          Oleg started his career working at Gehry Technologies in Dubai,
+          leveraging methods appropriated from the aerospace industry to structure architectural projects which demanded advanced precision during construction.
+          He continued his career in Hong Kong,
+          leading an effort with RMJM to develop computational design methods for rationalizing geometrical facades.
+          In New York, Oleg was invited by Lower Manhattan Development Corporation (LMDC) to structure and build information models for the World Trade Center reconstruction.
+           This later led to involvement in the $18B Grand Central Expansion Mega Project, where he oversaw the design and development of a virtual construction ecosystem.
+           To deepen his applied understanding of craft and architectural space, Oleg designed and constructed an off-grid property in upstate New York.
+            He is also co-author of the textbook 'Implementing Virtual Design and Construction using BIM' (Routledge, 2016).
+            Before Co-founding Bldrs.ai Oleg was engaged with Google, developing digital applications that allowed internal teams to better design and manage Google's global real estate portfolio.
+            <br/>
+            Oleg believes technological transformation is long overdue across the AEC industry and through each of his engagements actively works to make progressive strides in this direction.
           </Typography>
           </Stack>
         </Paper>
