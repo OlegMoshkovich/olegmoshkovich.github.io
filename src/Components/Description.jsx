@@ -18,7 +18,7 @@ function Description() {
           backgroundColor: theme.palette.background.default,
           color: theme.palette.primary.main,
           padding: '0px 10px',
-          height:  isMobile ? '460px' : '560px',
+          height:  isMobile ? '460px' : '524px',
           overflow:'scroll'
         }}
         >
