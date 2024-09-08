@@ -34,13 +34,16 @@ function Description() {
           leveraging methods appropriated from the aerospace industry to structure architectural projects which demanded advanced precision during construction.
           He continued his career in Hong Kong,
           leading an effort with RMJM to develop computational design methods for rationalizing geometrical facades.
+          <br/>
           In New York, Oleg was invited by Lower Manhattan Development Corporation (LMDC) to structure and build information models for the World Trade Center reconstruction.
            This later led to involvement in the $18B Grand Central Expansion Mega Project, where he oversaw the design and development of a virtual construction ecosystem.
+           <br/>
            To deepen his applied understanding of craft and architectural space, Oleg designed and constructed an off-grid property in upstate New York.
             He is also co-author of the textbook 'Implementing Virtual Design and Construction using BIM' (Routledge, 2016).
-            Before Co-founding Bldrs.ai Oleg was engaged with Google, developing digital applications that allowed internal teams to better design and manage Google's global real estate portfolio.
             <br/>
-            Oleg believes technological transformation is long overdue across the AEC industry and through each of his engagements actively works to make progressive strides in this direction.
+            Before Co-founding Bldrs.ai, Oleg was engaged with Google, developing digital applications that allowed internal teams to better design and manage Google's global real estate portfolio.
+            <br/>
+            He believes technological transformation is long overdue across the AEC industry and through each of his engagements actively works to make progressive strides in this direction.
           </Typography>
           </Stack>
         </Paper>
