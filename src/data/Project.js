@@ -133,7 +133,7 @@ export const ProjectsObj = [
       years at Google working on different teams. He has a broad set of interests and deep technical expertise,
        which significantly influenced the direction of the company. The company became a vessel for ambitious
        technological exploration with the aim of integrating the latest technologies. To accomplish this task,
-        we hired a team of experienced programmers.${<br/>}
+        we hired a team of experienced programmers.
       Initially, we used the IFC.js engine as the core of the ecosystem but quickly realized that it did not
       offer the processing capabilities and flexibility we needed. Our lead programmer was tasked with rewriting
        part of the engine. We forked the original Web IFC engine and rewrote parts of it to increase flexibility
