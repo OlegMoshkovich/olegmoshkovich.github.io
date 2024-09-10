@@ -13,6 +13,12 @@ const LeftSide = ({onGoToLocation}) => {
     spacing={1}
     sx={{marginLeft:'-10px'}}
     >
+        <img
+          src={`${process.env.PUBLIC_URL}/images/12.png`}
+          alt={'image_hero'}
+          loading="lazy"
+          style={{width:50}}
+        />
     </Stack>
     )
   }
