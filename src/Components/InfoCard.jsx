@@ -42,10 +42,11 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
           flexShrink: 0,
           justifyContent: 'center', // Center the loader
           alignItems: 'center', // Center the loader
+          color: 'gray', // Set the color to gray
         }}
     >
       {loading ? (
-        <CircularProgress />
+        <CircularProgress color="inherit"/> // Use the inherited color
       ) : (
         <>
           {!expandCards && (
@@ -71,7 +72,7 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
             {expandCards ? expandedDescription : description}
             </Typography>
           </CardContent>
-          <CardActions sx={{ justifyContent: 'space-between', p: 1 }}>
+          <CardActions sx={{ width:'96%', display:'flex', justifyContent: 'space-between', p: 1 }}>
             <Chip size='small' label={tag} variant="outlined" sx={{border: 'none'}}/>
             <Stack direction='row'>
                 <Dialog
