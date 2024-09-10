@@ -33,7 +33,7 @@ const Transition = React.forwardRef((props, ref) => (
 const Projects = () => {
   const [open, setOpen] = useState(false);
   const [view, setView] = useState('grid'); // State to manage views
-  const [isReversed, setIsReversed] = useState(false); // State to manage order of projects
+  const [isReversed, setIsReversed] = useState(true); // State to manage order of projects
   const [arrowDirection, setArrowDirection] = useState({
     grid: 'down',
     timeline: 'right',
@@ -130,7 +130,7 @@ const Projects = () => {
             </IconButton>
 
             {/* Timeline View Button */}
-            <IconButton
+            {/* <IconButton
               sx={{
                 margin: '0 4px',
                 borderRadius: '50%',
@@ -152,7 +152,7 @@ const Projects = () => {
                   <KeyboardArrowLeftIcon fontSize="small" />
                 )
               )}
-            </IconButton>
+            </IconButton> */}
 
             <IconButton sx={{ margin: '0 4px' }} size="small" onClick={() => setOpen(false)}>
               <CloseIcon fontSize="small" />
