@@ -7,7 +7,7 @@ const LeftSide = ({ onGoToLocation }) => {
       direction="row"
       alignItems="center"
       spacing={1}
-      sx={{position:'absolute', top:'12px', left:'30px'}}
+      sx={{position:'absolute', top:'10px', left:'20px'}}
     >
       <a
         href="https://www.youtube.com/channel/UCK0LS82kZMwKIRTH4ILa8nA"
