@@ -38,29 +38,6 @@ const Social = () => {
           sx={{border:'none'}}>
         <GitHubIcon fontSize='small'/>
       </IconButton>
-      <Dialog
-        actionTitle={'OK'}
-        icon={<QrCodeIcon fontSize='small'/>}
-        dialogTitle={
-          <Typography variant='body2'>
-            Oleg Moshkovich
-          </Typography>
-        }
-        dialogContent={
-          <Box>
-          <ImageList cols={1}>
-            <ImageListItem key={'image'}>
-              <img
-                src={`${process.env.PUBLIC_URL}/images/11.png`}
-                alt={'resume'}
-                loading="lazy"
-                style={{ width: '200px', height: '200px' }}  // Set width and height here
-              />
-            </ImageListItem>
-          </ImageList>
-        </Box>
-        }
-      />
     </Stack>
   )
 

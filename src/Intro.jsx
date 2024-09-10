@@ -7,6 +7,7 @@ import { useTheme } from '@mui/material/styles';
 import Description from './Components/Description'
 import Palette from './Components/Palette'
 import Social from './Components/Social'
+import Qr from './Components/Qr'
 
 
 function Share() {
@@ -32,8 +33,11 @@ function Share() {
     {/* <Box sx={{position: 'absolute', bottom: 14, left: 20}}>
       <Palette/>
     </Box> */}
-    <Box sx={{position: 'absolute', bottom: 14, left: 20}}>
+    <Box sx={{position: 'absolute', bottom: 14, right: 20}}>
       <Social/>
+    </Box>
+    <Box sx={{position: 'absolute', bottom: 14, left: 20}}>
+      <Qr/>
     </Box>
     </>
   );
