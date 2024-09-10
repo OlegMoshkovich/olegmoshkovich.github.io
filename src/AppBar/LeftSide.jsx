@@ -11,7 +11,6 @@ const LeftSide = ({onGoToLocation}) => {
     direction='row'
     alignItems="center"
     spacing={1}
-    sx={{marginLeft:'-10px'}}
     >
         <img
           src={`${process.env.PUBLIC_URL}/images/12.png`}
