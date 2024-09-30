@@ -13,16 +13,16 @@ const LeftSide = ({ onGoToLocation }) => {
       spacing={1}
       sx={{position:'absolute', top:'10px', left:'20px'}}
     >
-      <a
-        href="https://www.youtube.com/channel/UCK0LS82kZMwKIRTH4ILa8nA"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
         <img
+        onClick={()=>window.open("https://www.youtube.com/channel/UCK0LS82kZMwKIRTH4ILa8nA")}
         alt='avatar'
         src={`${process.env.PUBLIC_URL}/images/16.png`}
-        style = {{width:isMobile? '15%' :'9%', borderRadius: '50%'}}/>
-      </a>
+        style = {{
+          width:isMobile? '15%' :'10%',
+          height:isMobile? '15%' :'10%',
+          borderRadius: '50%',
+          cursor:'pointer'
+        }}/>
     </Stack>
   );
 };

@@ -3,7 +3,7 @@ import { create } from 'zustand'
 
 const useStore = create((set) => ({
   borderRadius: 16,
-  themeScheme: 0,
+  themeScheme: 3,
   showComponents: false,
   showBldrs:true,
   showComments: false,

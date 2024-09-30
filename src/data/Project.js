@@ -14,7 +14,7 @@ export const ProjectsObj = [
     expandedDescription: `Project story is coming soon.`,
   },
   {
-    title: 'Dubai hotel',
+    title: 'Dubai W hotel',
     tag: 'BIM Manager',
     image: `${process.env.PUBLIC_URL}/images/9.png`,
     description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',

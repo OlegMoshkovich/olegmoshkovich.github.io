@@ -47,7 +47,6 @@ const CV = () => {
         <AppBar
           sx={{
             boxShadow: 'none',
-            borderBottom: `1px solid ${theme.palette.divider}`,
             backgroundColor: theme.palette.background.default,
           }}
         >

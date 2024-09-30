@@ -92,7 +92,7 @@ const Projects = () => {
         <AppBar
           sx={{
             boxShadow: 'none',
-            borderBottom: `1px solid ${theme.palette.divider}`,
+            // borderBottom: `1px solid ${theme.palette.divider}`,
             backgroundColor: theme.palette.background.default,
           }}
         >

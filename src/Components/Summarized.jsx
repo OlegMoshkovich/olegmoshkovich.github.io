@@ -18,7 +18,7 @@ function Summarized() {
           backgroundColor: theme.palette.background.default,
           color: theme.palette.primary.main,
           padding: '0px 10px',
-          height:  isMobile ? '430px' : '500px',
+          height:  isMobile ? '450px' : '522px',
           overflow:'scroll',
         }}
         >
@@ -31,25 +31,28 @@ function Summarized() {
           variant={isMobile?'caption':'body2'}
           sx={{
             lineHeight:isMobile?'1.2em':'auto',
-            fontWeight:isMobile?'auto':'bold',
-            fontFamily: 'Helvetica',
+            fontWeight:isMobile?'auto':'500',
+            fontFamily: 'Inter',
           }}
 
           >
-            I am a multi-disciplinary product architect operating at the intersection of architecture, engineering, construction (AEC), and technology.
+            About
+            <br/>
+            <br/>
+            I am a product architect operating at the intersection of architecture, engineering, construction (AEC), and technology.
             <br/>
             <br/>
             I began my career at Gehry Technologies in Dubai, using CATIA on architectural projects that demanded advanced precision.
             <br/>
             In Hong Kong with 10 Design, I developed computational design methods for rationalizing geometrical facades for a super unique structure that was realized in 2018.
             <br/>
-            In New York, I built information models for the World Trade Center reconstruction, and led the VDC department on the Grand Central Expansion Mega Project.
+            In New York, I managed building information model of the World Trade Center reconstruction, and led the VDC department on the Grand Central Expansion Mega Project.
             <br/>
             <br/>
-            To deepen my understanding of craft and space, I designed and built an off-grid property in upstate New York and co-authored Implementing Virtual Design and Construction using BIM textbook.
+            To deepen my understanding of the buildling craft, I designed and built an off-grid property in upstate New York and co-authored Virtual Design and Construction textbook.
             <br/>
             <br/>
-            Before co-founding Bldrs.ai, I helped with development of digital applications for Google to better manage their global real estate portfolio.
+            Before co-founding Bldrs.ai, I contributed to the development of digital applications for Google to better manage their global real estate portfolio.
             <br/>
             <br/>
             I believe technological transformation is long overdue in the AEC industry and actively work to advance it.

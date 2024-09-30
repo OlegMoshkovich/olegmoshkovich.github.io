@@ -21,6 +21,25 @@ export const themeComponent = {
         },
       ]
     },
+    MuiButton: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          borderRadius: '20px', // Example: button shape customization
+          border: `1px solid #BCC8C6`, // Define a solid border
+          color: theme.palette.primary.main, // Button text color
+          transition: 'background-color 0.3s ease, box-shadow 0.3s ease', // Smooth transition for hover
+          '&:hover': {
+            backgroundColor:theme.palette.secondary.main, // Change background color on hover
+            boxShadow: 'none', // Remove shadow on hover
+            border: `1px solid #BCC8C6`, // Ensure the border doesn't change
+          },
+          '&:focus': {
+            backgroundColor:'none', // Change background color on hover
+            outline: 'none', // Remove focus outline when the button is focused
+          },
+        }),
+      },
+    },
     MuiIconButton: {
       styleOverrides: {
         root:({ theme }) => ({
@@ -272,7 +291,7 @@ export const lightTheme = (colorTheme=1) => createTheme({
   ...themeComponent,
 })
 
-export const darkTheme = (colorTheme=1) => createTheme({
+export const darkTheme = (colorTheme=0) => createTheme({
   palette: {
     mode: 'dark',
     default: {
