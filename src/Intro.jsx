@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import AppBar from './AppBar/AppBar'
 import { useTheme } from '@mui/material/styles';
 import Description from './Components/Description'
+import Summarized from './Components/Summarized'
 import Palette from './Components/Palette'
 import Social from './Components/Social'
 import Qr from './Components/Qr'
@@ -28,7 +29,7 @@ function Share() {
         backgroundColor: theme.palette.background.paper,
       }}
     >
-      <Description/>
+      <Summarized/>
     </Stack>
     <Box sx={{position: 'absolute', bottom: 14, right: 20}}>
       <Social/>

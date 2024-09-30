@@ -35,4 +35,8 @@
   to {
     transform: rotate(360deg);
   }
+    /* src/index.css or src/App.css */
+  body {
+    font-family: 'Inter', sans-serif;
+  }
 }

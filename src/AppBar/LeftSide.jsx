@@ -14,7 +14,7 @@ const LeftSide = ({ onGoToLocation }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={`${process.env.PUBLIC_URL}/images/13.png`} style = {{width:'10%', borderRadius: '10px'}}/>
+        <img src={`${process.env.PUBLIC_URL}/images/16.png`} style = {{width:'10%', borderRadius: '50%'}}/>
       </a>
     </Stack>
   );
