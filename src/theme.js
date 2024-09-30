@@ -27,6 +27,7 @@ export const themeComponent = {
           borderRadius: '20px', // Example: button shape customization
           border: `1px solid #BCC8C6`, // Define a solid border
           color: theme.palette.primary.main, // Button text color
+          textTransform: 'capitalize',
           transition: 'background-color 0.3s ease, box-shadow 0.3s ease', // Smooth transition for hover
           '&:hover': {
             backgroundColor:theme.palette.secondary.main, // Change background color on hover
