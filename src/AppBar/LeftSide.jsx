@@ -1,7 +1,11 @@
 import * as React from 'react';
-import { Stack } from '@mui/material';
+import { Stack, useMediaQuery, useTheme } from '@mui/material';
+
 
 const LeftSide = ({ onGoToLocation }) => {
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+
   return (
     <Stack
       direction="row"
@@ -14,7 +18,10 @@ const LeftSide = ({ onGoToLocation }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={`${process.env.PUBLIC_URL}/images/16.png`} style = {{width:'10%', borderRadius: '50%'}}/>
+        <img
+        alt='avatar'
+        src={`${process.env.PUBLIC_URL}/images/16.png`}
+        style = {{width:isMobile? '15%' :'9%', borderRadius: '50%'}}/>
       </a>
     </Stack>
   );

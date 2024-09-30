@@ -18,7 +18,7 @@ function Summarized() {
           backgroundColor: theme.palette.background.default,
           color: theme.palette.primary.main,
           padding: '0px 10px',
-          height:  isMobile ? '420px' : '480px',
+          height:  isMobile ? '430px' : '500px',
           overflow:'scroll',
         }}
         >
@@ -47,6 +47,7 @@ function Summarized() {
             <br/>
             <br/>
             To deepen my understanding of craft and space, I designed and built an off-grid property in upstate New York and co-authored Implementing Virtual Design and Construction using BIM textbook.
+            <br/>
             <br/>
             Before co-founding Bldrs.ai, I helped with development of digital applications for Google to better manage their global real estate portfolio.
             <br/>
