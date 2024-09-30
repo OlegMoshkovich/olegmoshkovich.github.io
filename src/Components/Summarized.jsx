@@ -18,7 +18,7 @@ function Summarized() {
           backgroundColor: theme.palette.background.default,
           color: theme.palette.primary.main,
           padding: '0px 10px',
-          height:  isMobile ? '450px' : '522px',
+          height:  isMobile ? '460px' : '522px',
           overflow:'scroll',
         }}
         >
