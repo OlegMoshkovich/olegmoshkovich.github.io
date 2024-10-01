@@ -18,8 +18,8 @@ const LeftSide = ({ onGoToLocation }) => {
         alt='avatar'
         src={`${process.env.PUBLIC_URL}/images/16.png`}
         style = {{
-          width:isMobile? '15%' :'10%',
-          height:isMobile? '15%' :'10%',
+          width:isMobile? '15%' :'7%',
+          height:isMobile? '15%' :'7%',
           borderRadius: '50%',
           cursor:'pointer'
         }}/>
