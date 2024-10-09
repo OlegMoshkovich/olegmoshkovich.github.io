@@ -49,7 +49,7 @@ function Summarized() {
             In New York, I managed building information model of the World Trade Center reconstruction, and led the VDC department on the Grand Central Expansion Mega Project.
             <br/>
             <br/>
-            To deepen my understanding of the buildling craft, I designed and built an off-grid property in upstate New York and co-authored Virtual Design and Construction textbook.
+            To deepen my understanding of the buildling craft, I designed and built an off-grid cabin in upstate New York and co-authored Virtual Design and Construction textbook.
             <br/>
             <br/>
             Before co-founding Bldrs.ai, I contributed to the development of digital applications for Google to better manage their global real estate portfolio.
