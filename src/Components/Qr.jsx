@@ -35,7 +35,7 @@ const Qr = () => {
                 src={`${process.env.PUBLIC_URL}/images/11.png`}
                 alt={'resume'}
                 loading="lazy"
-                style={{ width: '200px', height: '200px' }}  // Set width and height here
+                style={{ width: '200px', height: '200px', borderRadius:'20px' }}  // Set width and height here
               />
             </ImageListItem>
           </ImageList>

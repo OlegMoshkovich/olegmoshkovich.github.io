@@ -44,7 +44,7 @@ function Summarized() {
             <br/>
             I began my career at Gehry Technologies in Dubai, using CATIA on architectural projects that demanded advanced precision.
             <br/>
-            In Hong Kong with 10 Design, I developed computational design methods for rationalizing geometrical facades for a super unique structure that was realized in 2018.
+            In Hong Kong with 10 Design, I developed computational methods for rationalizing geometrical facades for a super unique structure that was realized in 2018.
             <br/>
             In New York, I managed building information model of the World Trade Center reconstruction, and led the VDC department on the Grand Central Expansion Mega Project.
             <br/>

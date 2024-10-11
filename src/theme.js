@@ -25,7 +25,7 @@ export const themeComponent = {
       styleOverrides: {
         root: ({ theme }) => ({
           borderRadius: '20px', // Example: button shape customization
-          border: `1px solid #BCC8C6`, // Define a solid border
+          border: `1px solid #E6E6E6`, // Define a solid border
           color: theme.palette.primary.main, // Button text color
           textTransform: 'capitalize',
           transition: 'background-color 0.3s ease, box-shadow 0.3s ease', // Smooth transition for hover

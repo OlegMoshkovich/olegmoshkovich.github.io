@@ -1,5 +1,5 @@
  export const colors = [
-  {primary: '#151521', secondary:'#8A9A5B', paper: '#FAF9F6', default:'#FAF9F6', logo:'#151521'},
+  {primary: '#151521', secondary:'#E6E6E6', paper: '#FAF9F6', default:'#FAF9F6', logo:'#151521'},
   {primary: '#B6C2AA', secondary:'#EDFA90', paper: '#999999', default:'#454D57', logo:'#B6C2AA'},
   {primary: '#151521', secondary:'#ffffff', paper: '#454D57', default:'#999999', logo:'#151521'},
   {primary: '#B6C2AA', secondary:'#EDFA90', paper: '#999999', default:'#454D57', logo:'#B6C2AA'},
