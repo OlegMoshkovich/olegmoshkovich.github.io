@@ -52,9 +52,6 @@ function Summarized() {
             To deepen my understanding of the buildling craft, I designed and built an off-grid cabin in upstate New York and co-authored Virtual Design and Construction textbook.
             <br/>
             <br/>
-            Before co-founding Bldrs.ai, I contributed to the development of digital applications for Google to better manage their global real estate portfolio.
-            <br/>
-            <br/>
             I believe technological transformation is long overdue in the AEC industry and actively work to advance it.
           </Typography>
           </Stack>
