@@ -7,20 +7,6 @@ export const ProjectsObj = [
     expandedDescription: `Project story is coming soon.`,
   },
   {
-    title: 'Zuhai Business Center',
-    tag: 'Computational Designer',
-    image: `${process.env.PUBLIC_URL}/images/8.png`,
-    description: 'Assisted the architectural team with the computational design of the Zhuhai Shizimen Business Center by developing a parametric model of the project using automation within the Digital Project CAD system.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'Dubai W hotel',
-    tag: 'BIM Manager',
-    image: `${process.env.PUBLIC_URL}/images/9.png`,
-    description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
     title: 'New York Grand Central',
     tag: 'VDC Team Lead',
     image: `${process.env.PUBLIC_URL}/images/5.png`,
@@ -59,10 +45,17 @@ export const ProjectsObj = [
     `,
   },
   {
-    title: 'City Point',
-    tag: 'BIM Lead',
-    image: `${process.env.PUBLIC_URL}/images/6.png`,
-    description: 'Developed BIM models, and established processes for coordination and issue resolution during design and construction phases of the project.',
+    title: 'Zuhai Business Center',
+    tag: 'Computational Designer',
+    image: `${process.env.PUBLIC_URL}/images/8.png`,
+    description: 'Assisted the architectural team with the computational design of the Zhuhai Shizimen Business Center by developing a parametric model of the project using automation within the Digital Project CAD system.',
+    expandedDescription: `Project story is coming soon.`,
+  },
+  {
+    title: 'Dubai W hotel',
+    tag: 'BIM Manager',
+    image: `${process.env.PUBLIC_URL}/images/9.png`,
+    description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',
     expandedDescription: `Project story is coming soon.`,
   },
   {
@@ -73,10 +66,10 @@ export const ProjectsObj = [
     expandedDescription: `Project story is coming soon.`,
   },
   {
-    title: 'Human Condition Safety',
-    tag: 'Product manager',
-    image: `${process.env.PUBLIC_URL}/images/3.png`,
-    description: 'Managed product development for the HCS ecosystem, which included a smart vest and a suite of analytics products.',
+    title: 'New York City Point',
+    tag: 'BIM Lead',
+    image: `${process.env.PUBLIC_URL}/images/6.png`,
+    description: 'Developed BIM models, and established processes for coordination and issue resolution during design and construction phases of the project.',
     expandedDescription: `Project story is coming soon.`,
   },
   {
@@ -112,6 +105,13 @@ export const ProjectsObj = [
     of the proposed design. The scheme would be evaluated against several criteria, with the final score
     determining the quality of the proposed design...To be Continued.
     `,
+  },
+  {
+    title: 'Human Condition Safety',
+    tag: 'Product manager',
+    image: `${process.env.PUBLIC_URL}/images/3.png`,
+    description: 'Managed product development for the HCS ecosystem, which included a smart vest and a suite of analytics products.',
+    expandedDescription: `Project story is coming soon.`,
   },
   {
     title: 'Bldrs.ai',
@@ -170,4 +170,5 @@ export const ProjectsObj = [
        the bot functioning in Discord and in builders at the prototype level, and GitHub integration starting to
        function. The world does not stand still, and since our original set of ideas...To be continued.`,
   },
+
 ];
