@@ -39,7 +39,7 @@ function Summarized() {
             About
             <br/>
             <br/>
-            I am a product architect operating <br/> at the intersection of AEC and technology.
+            I am a product architect, <br/> operating  at the intersection of AEC and technology.
             <br/>
             <br/>
             I began my career at Gehry Technologies in Dubai, using CATIA on architectural projects that demanded advanced precision.
