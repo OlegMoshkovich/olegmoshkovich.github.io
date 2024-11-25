@@ -53,7 +53,7 @@ function Summarized() {
             <br/>
             <br/>
             Since 2017, I have been immersed in startups, taking on various technical and product roles. Most recently I co-founding Bldrs.ai, a company on a mission to integrate modern IT infrastructure into AEC workflows.
-            {/* <br/> */}
+            <br/>
             <br/>
             I believe technological transformation is long overdue in the AEC industry and actively work to advance it.
           </Typography>
