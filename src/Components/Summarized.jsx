@@ -51,7 +51,9 @@ function Summarized() {
             <br/>
             To deepen my understanding of the buildling craft, I designed and built an off-grid cabin in upstate New York and co-authored Virtual Design and Construction textbook.
             <br/>
-            Since 2017, I have been immersed in startups, taking on various technical and product roles. This journey culminated in co-founding Bldrs.ai, a company on a mission to bring IT infrastructure to the AEC industry.
+            <br/>
+            Since 2017, I have been immersed in startups, taking on various technical and product roles. Most recently I co-founding Bldrs.ai, a company on a mission to integrate modern IT infrastructure into AEC workflows.
+            {/* <br/> */}
             <br/>
             I believe technological transformation is long overdue in the AEC industry and actively work to advance it.
           </Typography>
