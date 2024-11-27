@@ -53,8 +53,8 @@ function Summarized() {
             <br/>
             Since 2017, I have been immersed in startups, taking on various technical and product roles.
             <br/>
-            <br/>
-            I believe technological transformation is long overdue in the AEC industry and actively work to advance it.
+            {/* <br/>
+            I believe technological transformation is long overdue in the AEC industry and actively work to advance it. */}
           </Typography>
           </Stack>
         </Paper>
