@@ -46,6 +46,7 @@ function Summarized() {
             <br/>
             In Hong Kong with 10 Design, I developed computational methods for rationalizing geometrical facades for a super unique structure that was realized in 2018.
             In New York, I managed building information model of the World Trade Center reconstruction, and led the VDC department on the Grand Central Expansion Mega Project.
+            In Zurich, I co-founded an AI startup focused on bringing advanced technology to the AEC industry. In Berlin, I operate an experimental agency that is predominantly orchestrated by AI agents.
             <br/>
             <br/>
             To deepen my understanding of the buildling craft, I designed and built an off-grid cabin in upstate New York and co-authored Virtual Design and Construction textbook.
