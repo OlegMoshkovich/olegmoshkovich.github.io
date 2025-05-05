@@ -39,18 +39,13 @@ function Summarized() {
 Oleg Moshkovich
 <br/>
 <br/>
-I am building <a href="https://waitlist.cadence.day/" target="_blank" rel="noopener noreferrer">Cadence</a> to help me design processes that enable teams to achieve cohesion and momentum. 
-I started Cadence in September of 2024, assembled the team and we released the MVP by May of 2025.<br/>
-My previous company <a href="https://bldrs.ai" target="_blank" rel="noopener noreferrer">bldrs.ai</a>, focused on integrating advanced Git-based workflows into the architecture industry. 
+I'm building <a href="https://waitlist.cadence.day">Cadence</a> to design processes that help teams achieve cohesion and momentum. I started the project in September 2024, assembled the team, and we released our MVP by May 2025.
 <br/>
-The bldrs team was awesome, but the process never quite worked, we were not able to achieve cohesion and velocity.<br/>
-All the lessons from bldrs were applied to Cadence.<br/>
-The most complex team I have ever operated was on the Grand Central Project in NYC. It was very rewarding experience, we were able to digitize the process of collaboration and execution on one of the most complex infrastructure projects in the world—with a team of four.<br/>
-To gain insights and satisfy curiousty, I have also contributed to various teams and startups as an engineer, product designer, and product manager.<br/>
-I have worked in different industries and lived in different cultures. <br/>
-I am able to adapt and bring value by relying on my diverse experience—while recognizing that every team is unique, and therefore the process must be tailored to the context.
-
-            
+Before that, I co-founded <a href="https://bldrs.ai">bldrs.ai</a>, which focused on bringing advanced Git-based workflows into the architecture industry. The team was great, but our processes didn't quite work, we struggled to build momentum. The lessons from that experience have shaped everything we're doing at Cadence.
+<br/>
+One of the most complex teams I’ve led was during the Grand Central Project in NYC. With a team of just four, we digitized collaboration and execution on one of the world’s most complex infrastructure projects. It was a challenging but deeply rewarding experience.
+<br/>
+To satisfy my curiosity and gain broader insight, I’ve worked with various teams and startups as an engineer, product manager and operator. I’ve worked across different industries and cultures, and I’ve learned to adapt while recognizing that every team is unique—and that effective processes must always be tailored to the context.
             
           </Typography>
           </Stack>
