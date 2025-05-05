@@ -45,7 +45,7 @@ export const ProjectsObj = [
     `,
   },
   {
-    title: 'Computational design in Architecture',
+    title: 'Computational design in architecture',
     tag: 'Computational Designer',
     image: `${process.env.PUBLIC_URL}/images/8.png`,
     description: 'Supported the architectural team on the Zhuhai Shizimen Business Center by developing a parametric model using automation in Digital Project to enable precision, adaptability, and flow in the design process.',

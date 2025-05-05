@@ -16,7 +16,7 @@ export default function PrimaryAppBar({ darkTheme, changeTheme, onGoToLocation }
       elevation={0}
       sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, borderBottom: `1px solid ${theme.palette.background.paper}`, backgroundColor: theme.palette.background.primary }}
     >
-    <Toolbar>
+    <Toolbar sx={{top:'10px'}}>
       <LeftSide onGoToLocation={onGoToLocation}/>
       <Box sx={{ flexGrow: 1 }} />
       <RightSide onGoToLocation={onGoToLocation}/>
