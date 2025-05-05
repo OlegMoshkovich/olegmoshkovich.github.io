@@ -36,26 +36,20 @@ function Summarized() {
           }}
 
           >
-            About
-            <br/>
-            <br/>
-            I am an engineer and a product architect, <br/> operating  at the intersection of AEC and technology.
-            <br/>
-            <br/>
-            I began my career at Gehry Technologies in Dubai, using CATIA on architectural projects that demanded advanced precision.
-            <br/>
-            In Hong Kong with 10 Design, I developed computational methods for rationalizing geometrical facades for a super unique structure that was realized in 2018.
-            In New York, I managed building information model of the World Trade Center reconstruction, and led the VDC department on the Grand Central Expansion Mega Project.
-            In Zurich, I co-founded an AI startup focused on bringing advanced technology to the AEC industry. In Berlin, I operate an experimental agency that is predominantly orchestrated by AI agents.
-            <br/>
-            <br/>
-            To deepen my understanding of the buildling craft, I designed and built an off-grid cabin in upstate New York and co-authored Virtual Design and Construction textbook.
-            <br/>
-            <br/>
-            Since 2017, I have been immersed in startups, taking on various technical and product roles.
-            <br/>
-            {/* <br/>
-            I believe technological transformation is long overdue in the AEC industry and actively work to advance it. */}
+Oleg Moshkovich
+<br/>
+<br/>
+I am building <a href="https://waitlist.cadence.day/" target="_blank" rel="noopener noreferrer">Cadence</a> to help me craft processes that enable teams to achieve cohesion and momentum. With cadence I started from a blank page, assembled the team and brought the idea to a product within two quarters.<br/>
+My previous project, <a href="https://github.com/bldrs-ai/conway" target="_blank" rel="noopener noreferrer">bldrs.ai</a>, focused on integrating advanced Git-based workflows into the architecture industry and creating a high-performance <a href="https://bldrs.ai" target="_blank" rel="noopener noreferrer">geometry engine</a>. 
+<br/>
+The bldrs team was awesome, but the process never quite worked, we were not able to achieve cohesion and velocity.<br/>
+All the lessons from bldrs were applied to Cadence.<br/>
+The most complex team I have ever operated was on the <a href="https://www.nycurbanism.com/east-side-access" target="_blank" rel="noopener noreferrer">Grand Central Project</a> in NYC. It was very rewarding experience, we were able to digitize the process of collaboration and execution on one of the most complex infrastructure projects in the world—with a team of five.<br/>
+To gain insights into operations and the world, I have also contributed to teams as an engineer, product designer, and product manager.<br/>
+I have worked in different industries and lived in different cultures. I am able to adapt and bring value by relying on my diverse experience—while recognizing that every team is unique, and therefore the process must be tailored to the context through listening and experimentation.
+
+            
+            
           </Typography>
           </Stack>
         </Paper>
