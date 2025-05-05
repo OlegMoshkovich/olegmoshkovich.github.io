@@ -59,12 +59,12 @@ const InfoCard = ({ title, description, expandedDescription, image, link='https:
           )}
           <CardContent sx={{ flexGrow: 1, overflow:'hidden'  }}>
             <Typography
-              sx={{ fontWeight: 'bold', ...linkStyle }}
+              sx={{ fontWeight: 'bold'}}
               gutterBottom
               variant="body2"
               component="div"
               textAlign="center"
-              onClick={()=>window.open(link)}
+              // onClick={()=>window.open(link)}
             >
               {title}
             </Typography>

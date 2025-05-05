@@ -1,14 +1,14 @@
 export const ProjectsObj = [
+  // {
+  //   title: 'World Trade Center',
+  //   tag: 'BIM Manager',
+  //   image: `${process.env.PUBLIC_URL}/images/7.png`,
+  //   description: 'Managed a comprehensive 4D digital twin of the World Trade Center mega program, used for schedule analysis and time-based conflict resolution.',
+  //   expandedDescription: `Project story is coming soon.`,
+  // },
   {
-    title: 'World Trade Center',
-    tag: 'BIM Manager',
-    image: `${process.env.PUBLIC_URL}/images/7.png`,
-    description: 'Managed a comprehensive 4D digital twin of the World Trade Center mega program, used for schedule analysis and time-based conflict resolution.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'New York Grand Central',
-    tag: 'VDC Team Lead',
+    title: 'Digitizing complex infrastructure',
+    tag: 'Team Lead',
     image: `${process.env.PUBLIC_URL}/images/5.png`,
     description: 'Led the team and developed a digital strategy for the East Side Access mega project, creating an ecosystem that included BIM, 4D modeling, and bespoke web apps for data collection.',
     expandedDescription: `
@@ -45,38 +45,38 @@ export const ProjectsObj = [
     `,
   },
   {
-    title: 'Zuhai Business Center',
+    title: 'Computational design in Architecture',
     tag: 'Computational Designer',
     image: `${process.env.PUBLIC_URL}/images/8.png`,
-    description: 'Assisted the architectural team with the computational design of the Zhuhai Shizimen Business Center by developing a parametric model of the project using automation within the Digital Project CAD system.',
+    description: 'Supported the architectural team on the Zhuhai Shizimen Business Center by developing a parametric model using automation in Digital Project to enable precision, adaptability, and flow in the design process.',
     expandedDescription: `Project story is coming soon.`,
   },
+  // {
+  //   title: 'Dubai W hotel',
+  //   tag: 'BIM Manager',
+  //   image: `${process.env.PUBLIC_URL}/images/9.png`,
+  //   description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',
+  //   expandedDescription: `Project story is coming soon.`,
+  // },
   {
-    title: 'Dubai W hotel',
-    tag: 'BIM Manager',
-    image: `${process.env.PUBLIC_URL}/images/9.png`,
-    description: 'Created a digital twin of the W Hotel, focusing on architectural and structural components using the Digital Project CAD system.',
-    expandedDescription: `Project story is coming soon.`,
-  },
-  {
-    title: 'Book - Implementing VDC',
-    tag: 'Co-Author',
+    title: 'Book about virtual design',
+    tag: 'Co-author',
     image: `${process.env.PUBLIC_URL}/images/4.png`,
-    description: 'Co-authored a book outlining the team structure, software, and production ecosystem necessary for effective Virtual Design and Construction (VDC) using BIM.',
+    description: 'Co-authored a book outlining the team structure, software, and production ecosystem necessary for effective Virtual Design and Construction (VDC) process.',
     expandedDescription: `Project story is coming soon.`,
   },
-  {
-    title: 'New York City Point',
-    tag: 'BIM Lead',
-    image: `${process.env.PUBLIC_URL}/images/6.png`,
-    description: 'Developed BIM models, and established processes for coordination and issue resolution during design and construction phases of the project.',
-    expandedDescription: `Project story is coming soon.`,
-  },
+  // {
+  //   title: 'New York City Point',
+  //   tag: 'BIM Lead',
+  //   image: `${process.env.PUBLIC_URL}/images/6.png`,
+  //   description: 'Developed BIM models, and established processes for coordination and issue resolution during design and construction phases of the project.',
+  //   expandedDescription: `Project story is coming soon.`,
+  // },
   {
     title: 'Outer Labs for Google',
-    tag: 'Engineer',
+    tag: 'Product engineer',
     image: `${process.env.PUBLIC_URL}/images/2.png`,
-    description: 'Front-End development and maintenance of the web applications Panorama, Blueprint, and Portfolio. Participated in the development of React Library of UI components.',
+    description: 'Worked on the front-end of Panorama, Blueprint, and Portfolio, and helped build a shared React UI library to support consistency and collaboration.',
     expandedDescription: `
     I joined Outer Labs in 2022,
     right at the beginning of COVID.
@@ -106,20 +106,20 @@ export const ProjectsObj = [
     determining the quality of the proposed design...To be Continued.
     `,
   },
-  {
-    title: 'Human Condition Safety',
-    tag: 'Product manager',
-    image: `${process.env.PUBLIC_URL}/images/3.png`,
-    description: 'Managed product development for the HCS ecosystem, which included a smart vest and a suite of analytics products.',
-    expandedDescription: `Project story is coming soon.`,
-  },
+  // {
+  //   title: 'Human Condition Safety',
+  //   tag: 'Product manager',
+  //   image: `${process.env.PUBLIC_URL}/images/3.png`,
+  //   description: 'Managed product development for the HCS ecosystem, which included a smart vest and a suite of analytics products.',
+  //   expandedDescription: `Project story is coming soon.`,
+  // },
   {
     title: 'Bldrs.ai',
-    tag: 'Co-Founder',
+    tag: 'Co-founder',
     image: `${process.env.PUBLIC_URL}/images/1.png`,
     description: `Co-founded a startup bringing tech tools into the AEC industry.
-    We developed an engine to open IFC and STEP files, and a front-end application
-    Share that provide integration with GitHub.`,
+    The team developed high performance geometry engine to open IFC and STEP files, and a front-end application
+    Share that provided integration with GitHub.`,
     expandedDescription: `We started a company with the goal of introducing IT tooling
     into AEC and made a strong bet on GitHub as the center of our product. GitHub, being
     one of the most sophisticated platforms in the world with over 100 million developers,
@@ -169,6 +169,37 @@ export const ProjectsObj = [
       The system is slowly coming together, with the open-source release of the engine scheduled for September,
        the bot functioning in Discord and in builders at the prototype level, and GitHub integration starting to
        function. The world does not stand still, and since our original set of ideas...To be continued.`,
+  },
+  {
+    title: 'Cadence.day',
+    tag: 'Operator',
+    image: `${process.env.PUBLIC_URL}/images/0.png`,
+    description: `Built cohesive, high-performing team through a humane, structured process with an emphasis on beauty, clarity, and shared ownership.`,
+    expandedDescription: `I’ve always had a vision for how I want teams to operate. But to validate that vision, I needed to run an independent experiment—starting from scratch—to discover the right process through intuition and insights gained from prior experience.
+
+In September 2024, I set out to conduct this experiment by independently taking a product from idea to completion.
+
+Cadence.day is the result of that experiment.
+
+Above all, I wanted to create a sense of alignment and momentum that produces quality outcomes the team is proud to share.
+
+The product needed to be beautiful and well-documented, with each intermediate stage treated with respect and care.
+
+The structure of operations had to be clear and logically assembled—dividing the work into well-organized segments that could move in parallel, connecting day-to-day tasks to broader outcomes.
+
+The process itself should propel the team forward, without over-reliance on the will of a single person to coordinate everyones domain.
+
+Clarity of language and visuals was essential—embedding motivation and a shared sense of responsibility into the fabric of the work.
+
+The process needed to be humane and balanced, with every participant feeling respected, valued, and empowered to influence the direction of the project.
+
+It also had to be balanced between automation and manual management—recognizing the value of both approaches.
+
+Aesthetics and beauty are important not only for their own sake but because they help synchronize the minds of team members, setting the tone for a collaborative flow state.
+
+Modern work spans across linear boards, Figma files, GitHub repositories, documentation pages, weekly meeting decks, shared drives, market analysis, functional specs, business models, pitch decks, and prototypes—all of it should be beautiful and thoughtfully crafted.
+
+When the process is loved, that love is embedded in the outcome.`,
   },
 
 ];

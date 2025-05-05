@@ -43,9 +43,12 @@ I'm building <a href="https://waitlist.cadence.day">Cadence</a> to design proces
 <br/>
 Before that, I co-founded <a href="https://bldrs.ai">bldrs.ai</a>, which focused on bringing advanced Git-based workflows into the architecture industry. The team was great, but our processes didn't quite work, we struggled to build momentum. The lessons from that experience have shaped everything we're doing at Cadence.
 <br/>
-One of the most complex teams I’ve led was during the Grand Central Project in NYC. With a team of just four, we digitized collaboration and execution on one of the world’s most complex infrastructure projects. It was a challenging but deeply rewarding experience.
+One of the most complex teams I’ve led was during the Grand Central Project in NYC. With a team of just four, we digitized collaboration and visual communication on one of the world’s most complex infrastructure projects. It was a challenging and deeply meaningful.
 <br/>
-To satisfy my curiosity and gain broader insight, I’ve worked with various teams and startups as an engineer, product manager and operator. I’ve worked across different industries and cultures, and I’ve learned to adapt while recognizing that every team is unique—and that effective processes must always be tailored to the context.
+To satisfy my curiosity and gain broader insights, 
+I’ve worked as an engineer, product manager and operator. 
+<br/>
+I’ve experienced different industries and cultures, and learned to adapt since effective processes must always be tailored to the context and the team.
             
           </Typography>
           </Stack>
