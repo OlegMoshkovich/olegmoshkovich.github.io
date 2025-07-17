@@ -1,11 +1,11 @@
 export const ProjectsObj = [
-  // {
-  //   title: 'World Trade Center',
-  //   tag: 'BIM Manager',
-  //   image: `${process.env.PUBLIC_URL}/images/7.png`,
-  //   description: 'Managed a comprehensive 4D digital twin of the World Trade Center mega program, used for schedule analysis and time-based conflict resolution.',
-  //   expandedDescription: `Project story is coming soon.`,
-  // },
+  {
+    title: 'World Trade Center',
+    tag: 'BIM Manager',
+    image: `${process.env.PUBLIC_URL}/images/7.png`,
+    description: 'Managed a comprehensive 4D digital twin of the World Trade Center mega program, used for schedule analysis and time-based conflict resolution.',
+    expandedDescription: `Project story is coming soon.`,
+  },
   {
     title: 'Digitizing complex infrastructure',
     tag: 'Team Lead',
@@ -65,13 +65,13 @@ export const ProjectsObj = [
     description: 'Co-authored a book outlining the team structure, software, and production ecosystem necessary for effective Virtual Design and Construction (VDC) process.',
     expandedDescription: `Project story is coming soon.`,
   },
-  // {
-  //   title: 'New York City Point',
-  //   tag: 'BIM Lead',
-  //   image: `${process.env.PUBLIC_URL}/images/6.png`,
-  //   description: 'Developed BIM models, and established processes for coordination and issue resolution during design and construction phases of the project.',
-  //   expandedDescription: `Project story is coming soon.`,
-  // },
+  {
+    title: 'New York City Point',
+    tag: 'BIM Lead',
+    image: `${process.env.PUBLIC_URL}/images/6.png`,
+    description: 'Developed BIM models, and established processes for coordination and issue resolution during design and construction phases of the project.',
+    expandedDescription: `Project story is coming soon.`,
+  },
   {
     title: 'Outer Labs for Google',
     tag: 'Product engineer',
@@ -106,13 +106,13 @@ export const ProjectsObj = [
     determining the quality of the proposed design...To be Continued.
     `,
   },
-  // {
-  //   title: 'Human Condition Safety',
-  //   tag: 'Product manager',
-  //   image: `${process.env.PUBLIC_URL}/images/3.png`,
-  //   description: 'Managed product development for the HCS ecosystem, which included a smart vest and a suite of analytics products.',
-  //   expandedDescription: `Project story is coming soon.`,
-  // },
+  {
+    title: 'Human Condition Safety',
+    tag: 'Product manager',
+    image: `${process.env.PUBLIC_URL}/images/3.png`,
+    description: 'Managed product development for the HCS ecosystem, which included a smart vest and a suite of analytics products.',
+    expandedDescription: `Project story is coming soon.`,
+  },
   {
     title: 'Bldrs.ai',
     tag: 'Co-founder',
