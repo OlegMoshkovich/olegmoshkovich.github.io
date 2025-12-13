@@ -39,17 +39,17 @@ function Summarized() {
 Oleg Moshkovich
 <br/>
 <br/>
-I'm building <a href="https://waitlist.cadence.day">Cadence</a> to design processes that help teams achieve cohesion and momentum. I started the project in September 2024, assembled the team, and we released our MVP by May 2025.
+I come from a technical engineering background, followed by a master's in product architecture, a studio-based education centered on implementing computation into the design and realization of the built environment. 
 <br/>
+After masters, I moved into architectural design, focusing primarily on complex geometry requiring rationalization at mega scale. 
 <br/>
-Before that, I co-founded <a href="https://github.com/bldrs-ai">bldrs.ai</a>, which focused on bringing advanced Git-based workflows into the architecture industry. The team was great, but our processes didn't quite work, we struggled to build momentum. The lessons from that experience have shaped everything we're doing at Cadence.
+That curiosity about mega-scale projects led me to digital twins, where I spent about six years in New York working on massive projects, leading digitalization and digital strategy. There, I started developing custom software to solve ubiquitous problems at scale, which pulled me into the startup world.
 <br/>
-One of the most complex teams I’ve led was during the Grand Central Project in NYC. With a team of just four, we digitized collaboration and visual communication on one of the world’s most complex infrastructure projects. It was a challenging and deeply meaningful.
+I've worked at the intersection of product and engineering ever since, fascinated by the different aspects of building companies. Over the last ten years, I've been involved with about seven different ventures, depending on how you count since two of them restarted. 
 <br/>
-To satisfy my curiosity and gain broader insights, 
-I’ve worked as an engineer, product manager and operator. 
+Most recently, I co-founded a company between the US and Switzerland and raised a solid seed round. I co-ran that for a couple of years, which was incredibly interesting and taught me hard lessons, mainly about structure and process. 
 <br/>
-I’ve experienced different industries and cultures, and learned to adapt since effective processes are always tailored to the context.
+After two and a half years, I decided to step out and start a self-funded project 'cadence' to really hone in on process and agency. And now I'm here.
             
           </Typography>
           </Stack>
