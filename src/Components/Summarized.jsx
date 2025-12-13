@@ -39,7 +39,7 @@ function Summarized() {
 Oleg Moshkovich
 <br/>
 <br/>
-I come from a technical engineering background, followed by a master's in product architecture, a studio-based education centered on implementing computation into the design and realization of the built environment. 
+I come from a mechanical engineering background, followed by a master's in product architecture, a studio-based education centered on implementing computation into the design and realization of the built environment. 
 <br/>
 After masters, I moved into architectural design, focusing primarily on complex geometry requiring rationalization at mega scale. 
 <br/>
