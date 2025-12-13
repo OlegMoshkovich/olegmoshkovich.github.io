@@ -1,15 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import useStore from '../Store';
 import {
-  Button,
   Stack,
   Card,
   CardActions,
   CardContent,
   CardMedia,
   Typography,
-  useTheme,
-  ImageList,
   ImageListItem,
   Chip,
 } from '@mui/material';
@@ -18,12 +15,10 @@ import AspectRatioIcon from '@mui/icons-material/AspectRatio';
 import CircularProgress from '@mui/material/CircularProgress';
 
 const InfoCard = ({ title, description, expandedDescription, image, link='https://bldrs.ai/', tag }) => {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded] = useState(false);
   const [loading, setLoading] = useState(true); // Add loading state
   const {expandAll} = useStore();
   const expandCards = expanded || expandAll;
-  const theme = useTheme();
-  const linkStyle = link.length>0 && {textDecoration: 'underline', cursor:'pointer'};
 
   useEffect(() => {
     const img = new Image();

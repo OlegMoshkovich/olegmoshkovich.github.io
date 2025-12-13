@@ -13,7 +13,6 @@ import {
   Grid,
   useMediaQuery
 } from '@mui/material';
-import useStore from '../Store';
 import CloseIcon from '@mui/icons-material/Close';
 import { ProjectsObj } from '../data/Project';
 import InfoCard from './InfoCard';
@@ -21,8 +20,6 @@ import InfoCard from './InfoCard';
 // import FastForwardOutlinedIcon from '@mui/icons-material/FastForwardOutlined';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 // import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 import Corousel from './Corousel';
 

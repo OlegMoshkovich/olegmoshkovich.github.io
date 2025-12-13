@@ -1,13 +1,9 @@
 import * as React from 'react';
 import Stack from '@mui/material/Stack'
 import Box from '@mui/material/Box'
-import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
 import ImageList from '@mui/material/ImageList'
 import ImageListItem from '@mui/material/ImageListItem'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import XIcon from '@mui/icons-material/X';
 import QrCodeIcon from '@mui/icons-material/QrCode';
 import Dialog from './Dialog';
 

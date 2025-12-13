@@ -4,9 +4,7 @@ import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import AppBar from './AppBar/AppBar'
 import { useTheme } from '@mui/material/styles';
-import Description from './Components/Description'
 import Summarized from './Components/Summarized'
-import Palette from './Components/Palette'
 import Social from './Components/Social'
 import Qr from './Components/Qr'
 

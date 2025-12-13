@@ -18,7 +18,6 @@ const useStore = create((set) => ({
   isTimelineOpen: true,
   showViewer: true,
   colorTheme:0,
-  res:[],
   project:0,
   portfolio: {
     name:'Swiss Property',
