@@ -35,8 +35,7 @@ function Summarized() {
             fontFamily: 'Inter',
           }}
 
-          >
-Oleg Moshkovich
+          >Oleg Moshkovich
 <br/>
 <br/>
 I come from a mechanical engineering background, followed by a master's in product architecture, a studio-based education centered on implementing computation into the design and realization of the built environment. 
